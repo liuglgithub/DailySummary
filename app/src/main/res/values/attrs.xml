@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="Follow">
+        <attr name="target" format="reference"/>
+    </declare-styleable>
+
+    <declare-styleable name="CalendarViewStyle">
+        <attr name="textSize" format="dimension" />
+        <attr name="textColor" format="color" />
+        <attr name="selectedTextColor" format="color" />
+        <attr name="selectedLineColor" format="color" />
+    </declare-styleable>
+    <declare-styleable name="TimeLineView">
+        <attr name="timelineRadius" format="dimension" />
+        <attr name="timelineHeadRadius" format="dimension" />
+        <attr name="timelineHeadColor" format="color" />
+        <attr name="timelineOtherColor" format="color" />
+        <attr name="timelineRadiusDistance" format="dimension" />
+        <attr name="timelineCount" format="integer" />
+        <attr name="timelineMarginTop" format="dimension" />
+        <attr name="timelineWidth" format="dimension" />
+    </declare-styleable>
+</resources>

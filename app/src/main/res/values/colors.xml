@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+
+    <color name="topbar_bg">#b6292d</color>
+    <color name="bottomtab_normal">#c8bca5</color>
+    <color name="bottomtab_press">#8b572a</color>
+    <color name="line">#c8bca5</color>
+
+    <color name="bg_tv">#3F51B5</color>
+
+    <color name="text_color_white">#ffffff</color>
+
+
+    <color name="font33">#333333</color>
+    <color name="font66">#666666</color>
+    <color name="font99">#999999</color>
+    <color name="white">#ffffff</color>
+    <color name="ccc">#cccccc</color>
+    <color name="red_cd0000">#cd0000</color>
+    <color name="f5">#f5f5f5</color>
+    <color name="black">#000000</color>
+    <color name="color_ffffff">#ffffff</color>
+    <color name="color_e5e5e5">#e5e5e5</color>
+
+</resources>

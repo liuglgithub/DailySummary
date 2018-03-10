@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.liugl.alltest.MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/fragment_bug"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="fragment——bug" />
+
+            <Button
+                android:id="@+id/fragment_qiantao"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="fragment——嵌套" />
+
+            <Button
+                android:id="@+id/suolue_pic"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="从一个缩略图启动activity" />
+
+            <Button
+                android:id="@+id/notification_test"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="自定义通知栏" />
+
+
+            <Button
+                android:id="@+id/permission"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="6.0权限" />
+
+            <Button
+                android:id="@+id/chenjinshi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="沉浸式状态栏" />
+
+            <Button
+                android:id="@+id/qiantaohuadong"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="MaterialDesign___嵌套滑动" />
+
+            <Button
+                android:id="@+id/md"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=" 安卓MaterialDesign " />
+
+            <Button
+                android:id="@+id/image_jiazai"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="facebook的banner广告" />
+
+            <Button
+                android:id="@+id/rececyview_jiazai"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="RecyclerView 多布局" />
+
+            <Button
+                android:id="@+id/baocunweizhi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="RecyclerView 多布局" />
+            <Button
+                android:id="@+id/servicedetail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Service使用" />
+            <Button
+                android:id="@+id/https_test"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Https使用" />
+
+            <Button
+                android:id="@+id/rsa_test"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="RSA加解密使用" />
+
+            <Button
+                android:id="@+id/imgload_test"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="图片加载框架" />
+
+            <Button
+                android:id="@+id/h5_app"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="使用h5唤起本地app" />
+
+            <Button
+                android:id="@+id/ad_app"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="跑马灯、淘宝广告条" />
+
+            <Button
+                android:id="@+id/annotation_app"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="自定义注解" />
+
+            <Button
+                android:id="@+id/ui_app"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="高仿自定义UI" />
+            <Button
+                android:id="@+id/window_app"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="WindowManage小米" />
+
+            <Button
+                android:id="@+id/activity_lifececyle_method"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Activity跳转的时候，两个Activity执行的生命周期方法" />
+
+            <!--<Button
+                android:id="@+id/tbn_app"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="测试butterkinfe初始化失败" />-->
+            <Button
+                android:id="@+id/activity_shezhi_ui_div"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="仿照设置界面设置divider" />
+
+            <Button
+                android:id="@+id/activity_suanfa_div"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="算法" />
+
+            <Button
+                android:id="@+id/activity_try_catch_oom_div"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="tryCatchOOM" />
+
+            <Button
+                android:id="@+id/synchronizedList"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="多线程操作List" />
+
+
+
+            <Button
+                android:id="@+id/changeDB"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="数据库升级降级操作" />
+            <Button
+                android:id="@+id/acacheTest"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Acache使用" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

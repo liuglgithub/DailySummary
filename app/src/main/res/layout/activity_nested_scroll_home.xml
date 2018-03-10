@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_nested_scroll_home"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.liugl.alltest.nestedscroll.NestedScrollHomeActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <Button
+                android:text="使用原生api手动分发滑动事件和拦截事件"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:id="@+id/def"
+
+
+                />
+
+            <Button
+                android:text="使用nestedScroll机制实现嵌套滑动"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/nestedscrool" />
+
+            <Button
+                android:text="Behavior绑定两个textview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/behavior_01" />
+
+            <Button
+                android:text="Behavior_按钮和Textview联动"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btn_txt" />
+
+            <Button
+                android:text="仿UC折叠Behavior"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/ucbtn_txt" />
+
+            <Button
+                android:text="CoordinatorLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/allCoordinatorLayout" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>
