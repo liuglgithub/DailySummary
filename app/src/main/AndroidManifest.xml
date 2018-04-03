@@ -2,12 +2,12 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.liugl.alltest">
 
-    <uses-permission android:name="android.permission.CALL_PHONE"/>
-    <uses-permission android:name="android.permission.INTERNET"/>
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
-    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
-    <uses-permission android:name="android.permission.SYSTEM_OVERLAY_WINDOW"/>
-    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.SYSTEM_OVERLAY_WINDOW" />
+    <uses-permission android:name="android.permission.CAMERA" />
 
     <application
         android:name=".Tapplication"
@@ -18,41 +18,41 @@
         android:theme="@style/Theme.AppCompat.Light.NoActionBar">
         <activity android:name=".MainActivity">
             <intent-filter>
-                <action android:name="android.intent.action.MAIN"/>
+                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER"/>
+                <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".fragment.FragmentMain2Activity"/>
-        <activity android:name=".fragment.FragmetnNestTestMainActivity"/>
-        <activity android:name=".suoluetu.SuolueActivity"/>
-        <activity android:name=".suoluetu.DetailActivity"/>
-        <activity android:name=".notification.NotificationCustomActivity"/>
-        <activity android:name=".notification.CustomNotifiCationDetailActivity"/>
-        <activity android:name=".permission.PermissionMain2Activity"/>
-        <activity android:name=".handlethreadloopall.RunOnUIThread_HandlerPostActivity"/>
-        <activity android:name=".chenjinshi.ChenJinShiStatusBarMain2Activity"/>
+        <activity android:name=".fragment.FragmentMain2Activity" />
+        <activity android:name=".fragment.FragmetnNestTestMainActivity" />
+        <activity android:name=".suoluetu.SuolueActivity" />
+        <activity android:name=".suoluetu.DetailActivity" />
+        <activity android:name=".notification.NotificationCustomActivity" />
+        <activity android:name=".notification.CustomNotifiCationDetailActivity" />
+        <activity android:name=".permission.PermissionMain2Activity" />
+        <activity android:name=".handlethreadloopall.RunOnUIThread_HandlerPostActivity" />
+        <activity android:name=".chenjinshi.ChenJinShiStatusBarMain2Activity" />
         <activity
             android:name=".chenjinshi.FirstStyleActivity"
-            android:windowSoftInputMode="adjustPan"/>
+            android:windowSoftInputMode="adjustPan" />
         <activity
             android:name=".chenjinshi.SecondeStyleActivity"
-            android:windowSoftInputMode="adjustPan"/>
-        <activity android:name=".chenjinshi.ThridStyleActivity"/>
-        <activity android:name=".chenjinshi.CelueMain2Activity"/>
+            android:windowSoftInputMode="adjustPan" />
+        <activity android:name=".chenjinshi.ThridStyleActivity" />
+        <activity android:name=".chenjinshi.CelueMain2Activity" />
         <activity
             android:name=".chenjinshi.Celue1Activity"
-            android:theme="@style/chenjinshiAppTheme"/>
-        <activity android:name=".notification.CompatCustomNotifiCationActivity"/>
-        <activity android:name=".notification.BigRemoteView_Activity"/>
-        <activity android:name=".permission.PermissionRequestHomeActivity"/>
-        <activity android:name=".permission.SystemDefaultAPIPerssionActivity"/>
-        <activity android:name=".nestedscroll.NestedScrollHomeActivity"/>
-        <activity android:name=".nestedscroll.defapi.DefApiActivity"/>
-        <activity android:name=".nestedscroll.nestedapi.NestedApiActivity"/>
-        <activity android:name=".nestedscroll.coordinatorlayout.demo01.MyBehaviroTowTextviewActivity"/>
-        <activity android:name=".materialdesign.toolbar.ToolBarMDActivity"/>
-        <activity android:name=".materialdesign.MDHOmeActivity"/>
+            android:theme="@style/chenjinshiAppTheme" />
+        <activity android:name=".notification.CompatCustomNotifiCationActivity" />
+        <activity android:name=".notification.BigRemoteView_Activity" />
+        <activity android:name=".permission.PermissionRequestHomeActivity" />
+        <activity android:name=".permission.SystemDefaultAPIPerssionActivity" />
+        <activity android:name=".nestedscroll.NestedScrollHomeActivity" />
+        <activity android:name=".nestedscroll.defapi.DefApiActivity" />
+        <activity android:name=".nestedscroll.nestedapi.NestedApiActivity" />
+        <activity android:name=".nestedscroll.coordinatorlayout.demo01.MyBehaviroTowTextviewActivity" />
+        <activity android:name=".materialdesign.toolbar.ToolBarMDActivity" />
+        <activity android:name=".materialdesign.MDHOmeActivity" />
         <activity
             android:name=".materialdesign.toolbar.MyChildActivity"
             android:parentActivityName=".materialdesign.toolbar.ToolBarMDActivity">
@@ -60,12 +60,12 @@
             <!-- Parent activity meta-data to support 4.0 and lower -->
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.liugl.alltest.materialdesign.toolbar.ToolBarMDActivity"/>
+                android:value="com.liugl.alltest.materialdesign.toolbar.ToolBarMDActivity" />
         </activity>
-        <activity android:name=".nestedscroll.md.MDHomeActivity"/>
-        <activity android:name=".cach.CachMain2Activity"/>
-        <activity android:name=".service.ServiceMain2Activity"/>
-        <activity android:name=".service.LocalServiceMain2Activity"/>
+        <activity android:name=".nestedscroll.md.MDHomeActivity" />
+        <activity android:name=".cach.CachMain2Activity" />
+        <activity android:name=".service.ServiceMain2Activity" />
+        <activity android:name=".service.LocalServiceMain2Activity" />
         <!--
             Service 配置说明：
 
@@ -79,68 +79,66 @@
         -->
         <service
             android:name=".service.MyService"
-            android:enabled="true"/>
+            android:enabled="true" />
         <service
             android:name=".service.MyComplexService"
-            android:enabled="true"/>
+            android:enabled="true" />
         <service
             android:name=".service.MyIntentService"
-            android:enabled="true"/>
+            android:enabled="true" />
 
-        <activity android:name=".service.ServiceComplexMain2Activity"/>
-        <activity android:name=".service.MyIntentServiceMain2Activity"/>
-        <activity android:name=".https.HttpsMain2Activity"/>
-        <activity android:name=".rsa.RSAMain2Activity"/>
-        <activity android:name=".imgload.ImageLoaderMain2Activity"/>
-        <activity android:name=".imgload.glide.GlideMain2Activity"/>
+        <activity android:name=".service.ServiceComplexMain2Activity" />
+        <activity android:name=".service.MyIntentServiceMain2Activity" />
+        <activity android:name=".https.HttpsMain2Activity" />
+        <activity android:name=".rsa.RSAMain2Activity" />
+        <activity android:name=".imgload.ImageLoaderMain2Activity" />
+        <activity android:name=".imgload.glide.GlideMain2Activity" />
         <activity android:name=".h5app.Main2Activity">
             <intent-filter>
-                <action android:name="android.intent.action.VIEW"/>
+                <action android:name="android.intent.action.VIEW" />
 
-                <category android:name="android.intent.category.DEFAULT"/>
-                <category android:name="android.intent.category.BROWSABLE"/>
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
 
                 <data
                     android:host="host"
-                    android:scheme="scheme"/>
+                    android:scheme="scheme" />
             </intent-filter>
         </activity>
-        <activity android:name=".suoluetu.SuoleuMain3Activity"/>
-        <activity android:name=".suoluetu.wandoujia.WandoujiaMain3Activity"/>
+        <activity android:name=".suoluetu.SuoleuMain3Activity" />
+        <activity android:name=".suoluetu.wandoujia.WandoujiaMain3Activity" />
         <activity
             android:name=".suoluetu.wandoujia.DetailWanDouJiaActivity"
-            android:theme="@style/transparent"/>
-        <activity android:name=".guanggao.taobao.TaoBaoADActivity"/>
-        <activity android:name=".guanggao.paomadeng.PaoMaDengActivity"/>
-        <activity android:name=".guanggao.ADActivity"/>
-        <activity android:name=".annotation.AnotationMain3Activity"/>
-        <activity android:name=".annotation.OneDefindeActivity"/>
-        <activity android:name=".annotation.defindbutterknife.DefindButterKinfeActivity"/>
-        <activity android:name=".view.UIMain3Activity"/>
-        <activity android:name=".view.datapick.DatePickActivity"/>
-        <activity android:name=".WindowManager.WindowManagerSystemActivity"/>
-        <activity android:name=".view.viewpagernetsgridview.ViewPagerNestGridViewActivity"/>
-        <activity android:name=".nestedscroll.coordinatorlayout.demo2.EaseyBehaviorActivity"/>
-        <activity android:name=".nestedscroll.coordinatorlayout.uc.UCBehavieMain3Activity"/>
-        <activity android:name=".view.recyclerviewmulitlayout.RecycleViewMulitLayoutActivity"/>
-        <activity android:name=".activitylifececyle.LifeOneActivity"/>
-        <activity android:name=".activitylifececyle.LifeTwoActivity"/>
-        <activity android:name=".view.shijianzhou.ShiJianZhouActivity"/>
-        <activity android:name=".view.divider.SettingDividerActivity"/>
-        <activity android:name=".suanfa.SuanFaActivity"/>
-        <activity android:name=".trycatch.TryCatchOOmActivity"/>
-        <activity android:name=".activitylifececyle.FinishWithDialogMain3Activity"/>
-        <activity android:name=".mulitthread.SynchronizedListActivity"/>
-        <activity android:name=".db.DBActivity"/>
-        <activity android:name=".nestedscroll.coordinatorlayout.all01.CoordinatorLayoutAllActivity">
-        </activity>
-        <activity android:name=".nestedscroll.coordinatorlayout.all01.SystemDefaultScrollActivity">
-        </activity>
-        <activity android:name=".nestedscroll.coordinatorlayout.all01.SlefDefindScrollActivity">
-        </activity>
-        <activity android:name=".nestedscroll.coordinatorlayout.all01.TableLayoutScrollActivity">
-        </activity>
-        <activity android:name=".view.progress.Progress01Activity">
+            android:theme="@style/transparent" />
+        <activity android:name=".guanggao.taobao.TaoBaoADActivity" />
+        <activity android:name=".guanggao.paomadeng.PaoMaDengActivity" />
+        <activity android:name=".guanggao.ADActivity" />
+        <activity android:name=".annotation.AnotationMain3Activity" />
+        <activity android:name=".annotation.OneDefindeActivity" />
+        <activity android:name=".annotation.defindbutterknife.DefindButterKinfeActivity" />
+        <activity android:name=".view.UIMain3Activity" />
+        <activity android:name=".view.datapick.DatePickActivity" />
+        <activity android:name=".WindowManager.WindowManagerSystemActivity" />
+        <activity android:name=".view.viewpagernetsgridview.ViewPagerNestGridViewActivity" />
+        <activity android:name=".nestedscroll.coordinatorlayout.demo2.EaseyBehaviorActivity" />
+        <activity android:name=".nestedscroll.coordinatorlayout.uc.UCBehavieMain3Activity" />
+        <activity android:name=".view.recyclerviewmulitlayout.RecycleViewMulitLayoutActivity" />
+        <activity android:name=".activitylifececyle.LifeOneActivity" />
+        <activity android:name=".activitylifececyle.LifeTwoActivity" />
+        <activity android:name=".view.shijianzhou.ShiJianZhouActivity" />
+        <activity android:name=".view.divider.SettingDividerActivity" />
+        <activity android:name=".suanfa.SuanFaActivity" />
+        <activity android:name=".trycatch.TryCatchOOmActivity" />
+        <activity android:name=".activitylifececyle.FinishWithDialogMain3Activity" />
+        <activity android:name=".mulitthread.SynchronizedListActivity" />
+        <activity android:name=".db.DBActivity" />
+        <activity android:name=".nestedscroll.coordinatorlayout.all01.CoordinatorLayoutAllActivity"></activity>
+        <activity android:name=".nestedscroll.coordinatorlayout.all01.SystemDefaultScrollActivity"></activity>
+        <activity android:name=".nestedscroll.coordinatorlayout.all01.SlefDefindScrollActivity"></activity>
+        <activity android:name=".nestedscroll.coordinatorlayout.all01.TableLayoutScrollActivity"></activity>
+        <activity android:name=".view.progress.Progress01Activity"></activity>
+        <activity android:name=".view.relatvie.Relativelayout_Activity"
+            >
         </activity>
     </application>
 

@@ -51,6 +51,13 @@
             android:text="仿ios菊花"
             />
 
+        <Button
+            android:id="@+id/relativeAverage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="RelativeLayout平分整个布局"
+            />
+
     </LinearLayout>
 
 </ScrollView>
