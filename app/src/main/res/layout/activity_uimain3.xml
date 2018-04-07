@@ -58,6 +58,13 @@
             android:text="RelativeLayout平分整个布局"
             />
 
+        <Button
+            android:id="@+id/gaussianBlurBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="RelativeLayout平分整个布局"
+            />
+
     </LinearLayout>
 
 </ScrollView>

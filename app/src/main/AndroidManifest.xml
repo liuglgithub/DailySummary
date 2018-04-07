@@ -132,14 +132,13 @@
         <activity android:name=".activitylifececyle.FinishWithDialogMain3Activity" />
         <activity android:name=".mulitthread.SynchronizedListActivity" />
         <activity android:name=".db.DBActivity" />
-        <activity android:name=".nestedscroll.coordinatorlayout.all01.CoordinatorLayoutAllActivity"></activity>
-        <activity android:name=".nestedscroll.coordinatorlayout.all01.SystemDefaultScrollActivity"></activity>
-        <activity android:name=".nestedscroll.coordinatorlayout.all01.SlefDefindScrollActivity"></activity>
-        <activity android:name=".nestedscroll.coordinatorlayout.all01.TableLayoutScrollActivity"></activity>
-        <activity android:name=".view.progress.Progress01Activity"></activity>
-        <activity android:name=".view.relatvie.Relativelayout_Activity"
-            >
-        </activity>
+        <activity android:name=".nestedscroll.coordinatorlayout.all01.CoordinatorLayoutAllActivity" />
+        <activity android:name=".nestedscroll.coordinatorlayout.all01.SystemDefaultScrollActivity" />
+        <activity android:name=".nestedscroll.coordinatorlayout.all01.SlefDefindScrollActivity" />
+        <activity android:name=".nestedscroll.coordinatorlayout.all01.TableLayoutScrollActivity" />
+        <activity android:name=".view.progress.Progress01Activity" />
+        <activity android:name=".view.relatvie.Relativelayout_Activity"></activity>
+        <activity android:name=".view.gaussian.GaussianBlurActivity"></activity>
     </application>
 
 </manifest>

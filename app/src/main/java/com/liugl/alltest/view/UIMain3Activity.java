@@ -9,6 +9,7 @@ import android.widget.RelativeLayout;
 import com.liugl.alltest.BaseActivity;
 import com.liugl.alltest.R;
 import com.liugl.alltest.view.datapick.DatePickActivity;
+import com.liugl.alltest.view.gaussian.GaussianBlurActivity;
 import com.liugl.alltest.view.progress.Progress01Activity;
 import com.liugl.alltest.view.recyclerviewmulitlayout.RecycleViewMulitLayoutActivity;
 import com.liugl.alltest.view.relatvie.Relativelayout_Activity;
@@ -35,6 +36,8 @@ public class UIMain3Activity extends BaseActivity {
     Button progressJvhua;
     @BindView(R.id.relativeAverage)
     Button relativeAverage;
+    @BindView(R.id.gaussianBlurBtn)
+    Button gaussianBlurBtn;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -43,7 +46,7 @@ public class UIMain3Activity extends BaseActivity {
         ButterKnife.bind(this);
     }
 
-    @OnClick({R.id.relativeAverage,R.id.progressJvhua,R.id.timezhou,R.id.vpgridview, R.id.datapic,R.id.rvmulit})
+    @OnClick({R.id.gaussianBlurBtn,R.id.relativeAverage,R.id.progressJvhua,R.id.timezhou,R.id.vpgridview, R.id.datapic,R.id.rvmulit})
     public void onBtnClick(View view) {
 
         switch (view.getId()) {
@@ -71,6 +74,13 @@ public class UIMain3Activity extends BaseActivity {
 
                 Intent relativeAverageIntent = new Intent(this, Relativelayout_Activity.class);
                 startActivity(relativeAverageIntent);
+
+                break;
+
+            case R.id.gaussianBlurBtn:
+
+                Intent gaussianBlurIntent = new Intent(this, GaussianBlurActivity.class);
+                startActivity(gaussianBlurIntent);
 
                 break;
         }
