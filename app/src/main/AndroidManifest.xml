@@ -137,8 +137,9 @@
         <activity android:name=".nestedscroll.coordinatorlayout.all01.SlefDefindScrollActivity" />
         <activity android:name=".nestedscroll.coordinatorlayout.all01.TableLayoutScrollActivity" />
         <activity android:name=".view.progress.Progress01Activity" />
-        <activity android:name=".view.relatvie.Relativelayout_Activity"></activity>
-        <activity android:name=".view.gaussian.GaussianBlurActivity"></activity>
+        <activity android:name=".view.relatvie.Relativelayout_Activity" />
+        <activity android:name=".view.gaussian.GaussianBlurActivity" />
+        <activity android:name=".view.sharepbg.SharepActivity"></activity>
     </application>
 
 </manifest>

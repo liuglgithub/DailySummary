@@ -13,6 +13,7 @@ import com.liugl.alltest.view.gaussian.GaussianBlurActivity;
 import com.liugl.alltest.view.progress.Progress01Activity;
 import com.liugl.alltest.view.recyclerviewmulitlayout.RecycleViewMulitLayoutActivity;
 import com.liugl.alltest.view.relatvie.Relativelayout_Activity;
+import com.liugl.alltest.view.sharepbg.SharepActivity;
 import com.liugl.alltest.view.shijianzhou.ShiJianZhouActivity;
 import com.liugl.alltest.view.viewpagernetsgridview.ViewPagerNestGridViewActivity;
 
@@ -39,6 +40,10 @@ public class UIMain3Activity extends BaseActivity {
     @BindView(R.id.gaussianBlurBtn)
     Button gaussianBlurBtn;
 
+    @BindView(R.id.shareBg)
+    Button shareBg;
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -46,7 +51,7 @@ public class UIMain3Activity extends BaseActivity {
         ButterKnife.bind(this);
     }
 
-    @OnClick({R.id.gaussianBlurBtn,R.id.relativeAverage,R.id.progressJvhua,R.id.timezhou,R.id.vpgridview, R.id.datapic,R.id.rvmulit})
+    @OnClick({R.id.shareBg,R.id.gaussianBlurBtn,R.id.relativeAverage,R.id.progressJvhua,R.id.timezhou,R.id.vpgridview, R.id.datapic,R.id.rvmulit})
     public void onBtnClick(View view) {
 
         switch (view.getId()) {
@@ -81,6 +86,12 @@ public class UIMain3Activity extends BaseActivity {
 
                 Intent gaussianBlurIntent = new Intent(this, GaussianBlurActivity.class);
                 startActivity(gaussianBlurIntent);
+
+                break;
+            case R.id.shareBg:
+
+                Intent shareBgIntent = new Intent(this, SharepActivity.class);
+                startActivity(shareBgIntent);
 
                 break;
         }

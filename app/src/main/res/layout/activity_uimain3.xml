@@ -62,9 +62,14 @@
             android:id="@+id/gaussianBlurBtn"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="RelativeLayout平分整个布局"
+            android:text="高斯模糊——"
             />
-
+        <Button
+            android:id="@+id/shareBg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="添加阴影"
+            />
     </LinearLayout>
 
 </ScrollView>

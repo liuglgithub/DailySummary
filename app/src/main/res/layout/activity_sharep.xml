@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.liugl.alltest.view.sharepbg.SharepActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+
+            >
+
+
+            <com.liugl.alltest.view.sharepbg.HKImageView
+                android:id="@+id/paddingImg"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="#fff"
+
+                android:elevation="10dp"
+                android:src="@drawable/btn_my_pre"
+
+                >
+
+            </com.liugl.alltest.view.sharepbg.HKImageView>
+
+            <ImageView
+
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:background="#fff"
+                android:elevation="10dp"
+                android:src="@drawable/btn_my_pre"
+
+                />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:text="在图片之上添加一个view，设置shape相关属性" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginBottom="20dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/art_collection" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/shadowbg" />
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:text="在Android中实现阴影效果集合一"
+
+                android:textStyle="bold"
+
+                />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="01是使用系统的.9背景图片"
+                android:layout_marginTop="20dp"
+                />
+            <ImageView
+                android:layout_margin="10dp"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleType="centerCrop"
+                android:src="@drawable/home_search_icon_nor"
+                android:background="@android:drawable/dialog_holo_light_frame"
+                />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="02是矩形layer-list"
+                android:layout_marginTop="20dp"
+                />
+            <ImageView
+                android:layout_margin="10dp"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleType="centerCrop"
+                android:src="@drawable/home_search_icon_nor"
+                android:background="@drawable/rentange_layer"
+                />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="03是FAB类型的layer-list"
+                android:layout_marginTop="20dp"
+                />
+            <ImageView
+                android:layout_margin="10dp"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleType="centerCrop"
+                android:src="@drawable/home_search_icon_nor"
+                android:background="@drawable/fab_layer"
+                />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="04-01使用系统API"
+                android:layout_marginTop="20dp"
+                />
+            <ImageView
+                android:id="@+id/outlineProImg"
+                android:layout_margin="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleType="centerCrop"
+                android:src="@drawable/home_search_icon_nor"
+                android:outlineProvider="bounds"
+                android:background="#fff"
+
+                />
+
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="04-02使用系统API,设置背景为fff"
+                android:layout_marginTop="20dp"
+                />
+            <ImageView
+               android:layout_margin="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleType="centerCrop"
+                android:src="@drawable/home_search_icon_nor"
+                android:elevation="10dp"
+                android:background="#fff"
+
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="04使用系统API,没有设置背景为fff"
+                android:layout_marginTop="20dp"
+                />
+            <ImageView
+                android:layout_margin="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleType="centerCrop"
+                android:src="@drawable/home_search_icon_nor"
+                android:elevation="10dp"
+
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="04没有使用系统API,也没有设置背景为fff"
+                android:layout_marginTop="20dp"
+                />
+            <ImageView
+                android:layout_margin="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleType="centerCrop"
+                android:src="@drawable/home_search_icon_nor"
+                android:elevation="10dp"
+
+                />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="05使用开源框架"
+                android:layout_marginTop="20dp"
+                />
+
+            <com.dd.ShadowLayout
+                android:layout_marginTop="16dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:sl_shadowRadius="10dp"
+                app:sl_shadowColor="#60CCCCCC"
+                app:sl_dx="0dp"
+                app:sl_dy="0dp"
+                app:sl_cornerRadius="50dp"
+
+                >
+
+                <ImageView
+                    android:layout_width="56dp"
+                    android:layout_height="56dp"
+                    android:src="@drawable/home_search_icon_nor"
+                    tools:ignore="ContentDescription"/>
+
+            </com.dd.ShadowLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
