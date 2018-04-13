@@ -134,7 +134,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="04-01使用系统API"
+                android:text="04-01使用系统API_outline"
                 android:layout_marginTop="20dp"
                 />
             <ImageView
@@ -143,10 +143,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:scaleType="centerCrop"
-                android:src="@drawable/home_search_icon_nor"
-                android:outlineProvider="bounds"
-                android:background="#fff"
-
+                android:src="@drawable/ic_bb"
+               android:background="@drawable/zidingyi"
                 />
 
 
