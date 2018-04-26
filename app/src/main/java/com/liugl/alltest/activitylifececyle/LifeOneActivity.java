@@ -2,6 +2,8 @@ package com.liugl.alltest.activitylifececyle;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.os.PersistableBundle;
+import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
@@ -28,6 +30,11 @@ public class LifeOneActivity extends AppCompatActivity {
         Log.e(TAG, "1=onCreate");
     }
 
+    @Override
+    public void onPostCreate(@Nullable Bundle savedInstanceState, @Nullable PersistableBundle persistentState) {
+        super.onPostCreate(savedInstanceState, persistentState);
+        Log.e(TAG, "1=onPostCreate");
+    }
 
     @OnClick({R.id.jumpbtn})
     void submit(View view) {
@@ -45,6 +52,12 @@ public class LifeOneActivity extends AppCompatActivity {
     protected void onStart() {
         super.onStart();
         Log.e(TAG, "1=onStart");
+    }
+
+    @Override
+    protected void onRestart() {
+        super.onRestart();
+        Log.e(TAG, "1=onRestart");
     }
 
     @Override
