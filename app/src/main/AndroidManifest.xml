@@ -139,7 +139,19 @@
         <activity android:name=".view.progress.Progress01Activity" />
         <activity android:name=".view.relatvie.Relativelayout_Activity" />
         <activity android:name=".view.gaussian.GaussianBlurActivity" />
-        <activity android:name=".view.sharepbg.SharepActivity"></activity>
+        <activity android:name=".view.sharepbg.SharepActivity" />
+        <activity android:name=".dialogfragment.DialogFragmentActivity" />
+        <activity android:name=".animation.Animation_Activity" />
+        <activity android:name=".animation.defualtinterpolator.TweenDefaultInterpolatorActivity" />
+        <activity android:name=".animation.defualtinterpolator.AccelerateDecelerateInterpolatorActivity" />
+        <activity android:name=".animation.defualtinterpolator.AccelerateInterpolatorActivity" />
+        <activity android:name=".animation.defualtinterpolator.AnticipateInterpolatorActivity" />
+        <activity android:name=".animation.defualtinterpolator.AnticipateOvershootInterpolatorActivity" />
+        <activity android:name=".animation.defualtinterpolator.BounceInterpolatorActivity" />
+        <activity android:name=".animation.defualtinterpolator.CycleInterpolatorActivity" />
+        <activity android:name=".animation.defualtinterpolator.DecelerateInterpolatorActivity" />
+        <activity android:name=".animation.defualtinterpolator.LinearInterpolatorActivity" />
+        <activity android:name=".animation.defualtinterpolator.OvershootInterpolatorActivity"></activity>
     </application>
 
 </manifest>

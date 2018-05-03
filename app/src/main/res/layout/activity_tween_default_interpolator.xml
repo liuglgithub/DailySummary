@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    >
+
+    <!--AccelerateDecelerateInterpolator   在动画开始与介绍的地方速率改变比较慢，在中间的时候加速-->
+    <!--AccelerateInterpolator                     在动画开始的地方速率改变比较慢，然后开始加速-->
+    <!--AnticipateInterpolator                      开始的时候向后然后向前甩-->
+    <!--AnticipateOvershootInterpolator     开始的时候向后然后向前甩一定值后返回最后的值-->
+    <!--BounceInterpolator                          动画结束的时候弹起-->
+    <!--CycleInterpolator                             动画循环播放特定的次数，速率改变沿着正弦曲线-->
+    <!--DecelerateInterpolator                    在动画开始的地方快然后慢-->
+    <!--LinearInterpolator                            以常量速率改变-->
+    <!--OvershootInterpolator                      向前甩一定值后再回到原来位置-->
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="AccelerateDecelerateInterpolator"
+        android:text="AccelerateDecelerateInterpolator"
+        android:textAllCaps="false" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="AccelerateInterpolator"
+        android:text="AccelerateInterpolator"
+        android:textAllCaps="false" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="AnticipateInterpolator"
+        android:text="AnticipateInterpolator"
+        android:textAllCaps="false" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="AnticipateOvershootInterpolator"
+        android:text="AnticipateOvershootInterpolator"
+        android:textAllCaps="false" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="BounceInterpolator"
+        android:text="BounceInterpolator"
+        android:textAllCaps="false" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="CycleInterpolator"
+        android:text="CycleInterpolator"
+        android:textAllCaps="false" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="DecelerateInterpolator"
+        android:text="DecelerateInterpolator"
+        android:textAllCaps="false" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="LinearInterpolator"
+        android:text="LinearInterpolator"
+        android:textAllCaps="false" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="OvershootInterpolator"
+        android:text="OvershootInterpolator"
+        android:textAllCaps="false" />
+
+</LinearLayout>

@@ -180,7 +180,11 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Acache使用" />
-
+            <Button
+                android:id="@+id/animationBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="动画" />
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
