@@ -15,13 +15,16 @@ public class Animation_Activity extends AppCompatActivity implements View.OnClic
     BounceInterpolator bounceInterpolator;
 
     Button tweenDefaultInterpolator;
+    Button propertyAnimationBtn;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_animation_);
         tweenDefaultInterpolator = (Button) this.findViewById(R.id.tweenDefaultInterpolator);
+        propertyAnimationBtn = (Button) this.findViewById(R.id.propertyAnimationBtn);
         tweenDefaultInterpolator.setOnClickListener(this);
+        propertyAnimationBtn.setOnClickListener(this);
 
 
     }
@@ -32,6 +35,9 @@ public class Animation_Activity extends AppCompatActivity implements View.OnClic
             case R.id.tweenDefaultInterpolator:
                 Intent tweenDefaultInterpolatorIntent = new Intent(this,TweenDefaultInterpolatorActivity.class);
                 this.startActivity(tweenDefaultInterpolatorIntent);
+                break;
+            case R.id.propertyAnimationBtn:
+
                 break;
         }
     }
