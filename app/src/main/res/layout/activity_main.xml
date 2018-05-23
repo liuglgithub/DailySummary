@@ -185,6 +185,15 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="动画" />
+
+            <Button
+                android:id="@+id/matcherBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="正则" />
+
+
+
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="50dp"

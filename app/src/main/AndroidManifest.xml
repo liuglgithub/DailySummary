@@ -151,7 +151,9 @@
         <activity android:name=".animation.defualtinterpolator.CycleInterpolatorActivity" />
         <activity android:name=".animation.defualtinterpolator.DecelerateInterpolatorActivity" />
         <activity android:name=".animation.defualtinterpolator.LinearInterpolatorActivity" />
-        <activity android:name=".animation.defualtinterpolator.OvershootInterpolatorActivity"></activity>
+        <activity android:name=".animation.defualtinterpolator.OvershootInterpolatorActivity" />
+        <activity android:name=".matcher.MatcherActivity" />
+        <activity android:name=".view.viewpager.ViewPagerAllActivity"></activity>
     </application>
 
 </manifest>

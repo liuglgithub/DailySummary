@@ -9,68 +9,71 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.liugl.alltest.view.UIMain3Activity">
-<ScrollView
-    android:layout_width="match_parent"
-    android:layout_height="match_parent">
 
-    <LinearLayout
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical"
-        >
+        android:layout_height="match_parent">
 
-        <Button
-            android:id="@+id/datapic"
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="时间选择控件"
-            />
+            android:layout_height="match_parent"
+            android:orientation="vertical">
 
-        <Button
-            android:id="@+id/vpgridview"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="仿照美团实现viewpager嵌套gridview"
-            />
-        <Button
-            android:id="@+id/rvmulit"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="RecyclerView多布局"
-            />
-        <Button
-            android:id="@+id/timezhou"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="仿淘宝物流时间轴"
-            />
-        <Button
-            android:id="@+id/progressJvhua"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="仿ios菊花"
-            />
+            <Button
+                android:id="@+id/datapic"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="时间选择控件" />
 
-        <Button
-            android:id="@+id/relativeAverage"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="RelativeLayout平分整个布局"
-            />
+            <Button
+                android:id="@+id/vpgridview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="仿照美团实现viewpager嵌套gridview" />
 
-        <Button
-            android:id="@+id/gaussianBlurBtn"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="高斯模糊——"
-            />
-        <Button
-            android:id="@+id/shareBg"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="添加阴影"
-            />
-    </LinearLayout>
+            <Button
+                android:id="@+id/rvmulit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="RecyclerView多布局" />
 
-</ScrollView>
+            <Button
+                android:id="@+id/timezhou"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="仿淘宝物流时间轴" />
+
+            <Button
+                android:id="@+id/progressJvhua"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="仿ios菊花" />
+
+            <Button
+                android:id="@+id/relativeAverage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="RelativeLayout平分整个布局" />
+
+            <Button
+                android:id="@+id/gaussianBlurBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="高斯模糊——" />
+
+            <Button
+                android:id="@+id/shareBg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="添加阴影" />
+
+            <Button
+                android:id="@+id/viewPagerBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="各种viewPager" />
+
+        </LinearLayout>
+
+    </ScrollView>
 </RelativeLayout>

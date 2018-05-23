@@ -15,6 +15,7 @@ import com.liugl.alltest.view.recyclerviewmulitlayout.RecycleViewMulitLayoutActi
 import com.liugl.alltest.view.relatvie.Relativelayout_Activity;
 import com.liugl.alltest.view.sharepbg.SharepActivity;
 import com.liugl.alltest.view.shijianzhou.ShiJianZhouActivity;
+import com.liugl.alltest.view.viewpager.ViewPagerAllActivity;
 import com.liugl.alltest.view.viewpagernetsgridview.ViewPagerNestGridViewActivity;
 
 import butterknife.BindView;
@@ -43,6 +44,8 @@ public class UIMain3Activity extends BaseActivity {
     @BindView(R.id.shareBg)
     Button shareBg;
 
+    @BindView(R.id.viewPagerBtn)
+    Button viewPagerBtn;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -51,7 +54,7 @@ public class UIMain3Activity extends BaseActivity {
         ButterKnife.bind(this);
     }
 
-    @OnClick({R.id.shareBg,R.id.gaussianBlurBtn,R.id.relativeAverage,R.id.progressJvhua,R.id.timezhou,R.id.vpgridview, R.id.datapic,R.id.rvmulit})
+    @OnClick({R.id.viewPagerBtn,R.id.shareBg,R.id.gaussianBlurBtn,R.id.relativeAverage,R.id.progressJvhua,R.id.timezhou,R.id.vpgridview, R.id.datapic,R.id.rvmulit})
     public void onBtnClick(View view) {
 
         switch (view.getId()) {
@@ -94,6 +97,12 @@ public class UIMain3Activity extends BaseActivity {
                 startActivity(shareBgIntent);
 
                 break;
+
+            case R.id.viewPagerBtn:
+                Intent viewpagerIntent = new Intent(this, ViewPagerAllActivity.class);
+                startActivity(viewpagerIntent);
+                break;
+
         }
 
     }
