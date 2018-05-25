@@ -694,6 +694,13 @@ https://mp.weixin.qq.com/s/wNdRSs-U05LLK_ZT2p2SFg
 
 
 2018-03-27 recycleview
+
+自定义LayoutManager，炫酷列表(各种效果，堆叠，群推荐)
+https://github.com/DingMouRen/LayoutManagerGroup
+堆叠效果
+https://github.com/xmuSistone/AndroidPileLayout
+https://github.com/HirayClay/StackLayoutManager
+
 https://mp.weixin.qq.com/s/-5ENiSSzulvu0yYokfLphg
 灵活使用RecyclerView中的定时器动画
 https://mp.weixin.qq.com/s/bBaxQ4zmPdDS3_N-95LRYw
