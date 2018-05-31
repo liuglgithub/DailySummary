@@ -153,7 +153,10 @@
         <activity android:name=".animation.defualtinterpolator.LinearInterpolatorActivity" />
         <activity android:name=".animation.defualtinterpolator.OvershootInterpolatorActivity" />
         <activity android:name=".matcher.MatcherActivity" />
-        <activity android:name=".view.viewpager.ViewPagerAllActivity"></activity>
+        <activity android:name=".view.viewpager.ViewPagerAllActivity" />
+        <activity android:name=".animation.propertyanima.PropertyAnimationActivity" />
+        <activity android:name=".animation.springanimator.SpringAllActivity" />
+        <activity android:name=".animation.springanimator.SpringOneActivity"></activity>
     </application>
 
 </manifest>

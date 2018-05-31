@@ -28,7 +28,12 @@
             android:layout_height="wrap_content"
             android:text="属性动画"
             />
-
+        <Button
+            android:id="@+id/springAnimator"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="弹性动画"
+            />
 
     </LinearLayout>
 

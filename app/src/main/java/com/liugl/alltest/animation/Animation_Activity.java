@@ -9,6 +9,8 @@ import android.widget.Button;
 
 import com.liugl.alltest.R;
 import com.liugl.alltest.animation.defualtinterpolator.TweenDefaultInterpolatorActivity;
+import com.liugl.alltest.animation.propertyanima.PropertyAnimationActivity;
+import com.liugl.alltest.animation.springanimator.SpringAllActivity;
 
 public class Animation_Activity extends AppCompatActivity implements View.OnClickListener {
 
@@ -16,6 +18,7 @@ public class Animation_Activity extends AppCompatActivity implements View.OnClic
 
     Button tweenDefaultInterpolator;
     Button propertyAnimationBtn;
+    Button springAnimator;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -23,8 +26,10 @@ public class Animation_Activity extends AppCompatActivity implements View.OnClic
         setContentView(R.layout.activity_animation_);
         tweenDefaultInterpolator = (Button) this.findViewById(R.id.tweenDefaultInterpolator);
         propertyAnimationBtn = (Button) this.findViewById(R.id.propertyAnimationBtn);
+        springAnimator = (Button) this.findViewById(R.id.springAnimator);
         tweenDefaultInterpolator.setOnClickListener(this);
         propertyAnimationBtn.setOnClickListener(this);
+        springAnimator.setOnClickListener(this);
 
 
     }
@@ -37,6 +42,13 @@ public class Animation_Activity extends AppCompatActivity implements View.OnClic
                 this.startActivity(tweenDefaultInterpolatorIntent);
                 break;
             case R.id.propertyAnimationBtn:
+                Intent propertyAnimationBtnIntent = new Intent(this,PropertyAnimationActivity.class);
+                this.startActivity(propertyAnimationBtnIntent);
+                break;
+            case R.id.springAnimator:
+
+                Intent springIntent = new Intent(this,SpringAllActivity.class);
+                this.startActivity(springIntent);
 
                 break;
         }

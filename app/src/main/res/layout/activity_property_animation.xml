@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.liugl.alltest.animation.propertyanima.PropertyAnimationActivity">
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+            <Button
+                android:id="@+id/obje_01"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Object_01"
+                />
+
+            <Button
+                android:id="@+id/obje_02"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="obje_02"
+                />
+
+
+            <Button
+                android:id="@+id/propertyValuesHolderBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="多属性动画同时工作管理类"
+                />
+
+            <Button
+                android:id="@+id/ValueAnimatorBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="属性动画中的时间驱动_ValueAnimator"
+                />
+
+
+            <Button
+                android:id="@+id/AnimatorSetBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="AnimatorSetBtn_"
+                />
+
+            <Button
+                android:id="@+id/Evaluators"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Evaluators"
+                />
+
+            <TextView
+                android:id="@+id/text_01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ceshi"
+                />
+
+        </LinearLayout>
+
+    </android.support.v4.widget.NestedScrollView>
+
+
+</LinearLayout>
