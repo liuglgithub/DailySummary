@@ -2,6 +2,8 @@ package com.liugl.alltest.animation.springanimator;
 
 import android.animation.AnimatorSet;
 import android.animation.ObjectAnimator;
+import android.support.animation.SpringAnimation;
+import android.support.animation.SpringForce;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -103,6 +105,40 @@ public class SpringOneActivity extends AppCompatActivity implements View.OnClick
 //                });
 //                spring.setEndValue(0f);
 
+                break;
+            case R.id.spring_animation_three:
+                /**
+                 * setStiffness()和setDampingRatio()方法来实现你想要的效果。
+                 注意哦，stiffness的值越小，弹性效果越好，弹时间越长。
+                 DampingRatio的值越大，弹性效果越差。
+                 */
+
+                SpringAnimation animationX = new SpringAnimation(animation_image, SpringAnimation.SCALE_X,1.8f);
+                SpringAnimation animationY = new SpringAnimation(animation_image, SpringAnimation.SCALE_Y,1.8f);
+                animationX.getSpring().setStiffness(SpringForce.STIFFNESS_LOW);
+                animationX.getSpring().setDampingRatio(SpringForce.DAMPING_RATIO_MEDIUM_BOUNCY);
+                animationX.setStartValue(1.0f);
+
+                animationY.getSpring().setStiffness(SpringForce.STIFFNESS_LOW);
+                animationY.getSpring().setDampingRatio(SpringForce.DAMPING_RATIO_MEDIUM_BOUNCY);
+                animationY.setStartValue(1.0f);
+
+                animationX.start();
+                animationY.start();
+
+
+//                SpringAnimation animationX = new SpringAnimation(animation_image, SpringAnimation.SCALE_X,1.8f);
+//                SpringAnimation animationY = new SpringAnimation(animation_image, SpringAnimation.TRANSLATION_Y,122.8f);
+//                animationX.getSpring().setStiffness(SpringForce.STIFFNESS_LOW);
+//                animationX.getSpring().setDampingRatio(SpringForce.DAMPING_RATIO_MEDIUM_BOUNCY);
+//                animationX.setStartValue(1.0f);
+//
+//                animationY.getSpring().setStiffness(SpringForce.STIFFNESS_LOW);
+//                animationY.getSpring().setDampingRatio(SpringForce.DAMPING_RATIO_MEDIUM_BOUNCY);
+//                animationY.setStartValue(1.0f);
+//
+//                animationX.start();
+//                animationY.start();
                 break;
         }
 
