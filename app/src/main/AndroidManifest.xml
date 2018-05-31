@@ -156,7 +156,8 @@
         <activity android:name=".view.viewpager.ViewPagerAllActivity" />
         <activity android:name=".animation.propertyanima.PropertyAnimationActivity" />
         <activity android:name=".animation.springanimator.SpringAllActivity" />
-        <activity android:name=".animation.springanimator.SpringOneActivity"></activity>
+        <activity android:name=".animation.springanimator.SpringOneActivity" />
+        <activity android:name=".animation.springanimator.QSpringActivity"></activity>
     </application>
 
 </manifest>

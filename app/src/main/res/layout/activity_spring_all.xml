@@ -16,4 +16,11 @@
         android:text="实现普通弹性动画的三种方式"
         />
 
+    <Button
+        android:id="@+id/spring_02"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Q弹效果01"
+        />
+
 </LinearLayout>
