@@ -10,6 +10,7 @@ import android.widget.Button;
 import com.liugl.alltest.R;
 import com.liugl.alltest.animation.defualtinterpolator.TweenDefaultInterpolatorActivity;
 import com.liugl.alltest.animation.propertyanima.PropertyAnimationActivity;
+import com.liugl.alltest.animation.springanimator.BezierInterploatorActivity;
 import com.liugl.alltest.animation.springanimator.SpringAllActivity;
 
 public class Animation_Activity extends AppCompatActivity implements View.OnClickListener {
@@ -19,6 +20,7 @@ public class Animation_Activity extends AppCompatActivity implements View.OnClic
     Button tweenDefaultInterpolator;
     Button propertyAnimationBtn;
     Button springAnimator;
+    Button beziSpringAnimator;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -27,9 +29,12 @@ public class Animation_Activity extends AppCompatActivity implements View.OnClic
         tweenDefaultInterpolator = (Button) this.findViewById(R.id.tweenDefaultInterpolator);
         propertyAnimationBtn = (Button) this.findViewById(R.id.propertyAnimationBtn);
         springAnimator = (Button) this.findViewById(R.id.springAnimator);
+        beziSpringAnimator = (Button) this.findViewById(R.id.beziSpringAnimator);
+
         tweenDefaultInterpolator.setOnClickListener(this);
         propertyAnimationBtn.setOnClickListener(this);
         springAnimator.setOnClickListener(this);
+        beziSpringAnimator.setOnClickListener(this);
 
 
     }
@@ -50,6 +55,11 @@ public class Animation_Activity extends AppCompatActivity implements View.OnClic
                 Intent springIntent = new Intent(this,SpringAllActivity.class);
                 this.startActivity(springIntent);
 
+                break;
+            case R.id.beziSpringAnimator:
+
+                Intent bspringIntent = new Intent(this,BezierInterploatorActivity.class);
+                this.startActivity(bspringIntent);
                 break;
         }
     }

@@ -35,6 +35,13 @@
             android:text="弹性动画"
             />
 
+        <Button
+            android:id="@+id/beziSpringAnimator"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="贝塞尔曲线作为差值器的动画"
+            />
+
     </LinearLayout>
 
 </android.support.v4.widget.NestedScrollView>

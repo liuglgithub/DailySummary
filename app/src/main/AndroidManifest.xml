@@ -157,7 +157,8 @@
         <activity android:name=".animation.propertyanima.PropertyAnimationActivity" />
         <activity android:name=".animation.springanimator.SpringAllActivity" />
         <activity android:name=".animation.springanimator.SpringOneActivity" />
-        <activity android:name=".animation.springanimator.QSpringActivity"></activity>
+        <activity android:name=".animation.springanimator.QSpringActivity" />
+        <activity android:name=".animation.springanimator.BezierInterploatorActivity"></activity>
     </application>
 
 </manifest>
