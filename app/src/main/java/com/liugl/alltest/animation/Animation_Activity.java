@@ -21,6 +21,7 @@ public class Animation_Activity extends AppCompatActivity implements View.OnClic
     Button propertyAnimationBtn;
     Button springAnimator;
     Button beziSpringAnimator;
+    Button donghuaAll;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -30,11 +31,13 @@ public class Animation_Activity extends AppCompatActivity implements View.OnClic
         propertyAnimationBtn = (Button) this.findViewById(R.id.propertyAnimationBtn);
         springAnimator = (Button) this.findViewById(R.id.springAnimator);
         beziSpringAnimator = (Button) this.findViewById(R.id.beziSpringAnimator);
+        donghuaAll =  this.findViewById(R.id.donghuaAll);
 
         tweenDefaultInterpolator.setOnClickListener(this);
         propertyAnimationBtn.setOnClickListener(this);
         springAnimator.setOnClickListener(this);
         beziSpringAnimator.setOnClickListener(this);
+        donghuaAll.setOnClickListener(this);
 
 
     }
@@ -60,6 +63,9 @@ public class Animation_Activity extends AppCompatActivity implements View.OnClic
 
                 Intent bspringIntent = new Intent(this,BezierInterploatorActivity.class);
                 this.startActivity(bspringIntent);
+                break;
+            case R.id.donghuaAll:
+
                 break;
         }
     }

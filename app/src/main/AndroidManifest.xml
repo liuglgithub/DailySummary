@@ -158,7 +158,9 @@
         <activity android:name=".animation.springanimator.SpringAllActivity" />
         <activity android:name=".animation.springanimator.SpringOneActivity" />
         <activity android:name=".animation.springanimator.QSpringActivity" />
-        <activity android:name=".animation.springanimator.BezierInterploatorActivity"></activity>
+        <activity android:name=".animation.springanimator.BezierInterploatorActivity" />
+        <activity android:name=".popwindow.PopWindwoActivity" />
+        <activity android:name=".animation.viewandanimator.DefinedViewAndAnimatorActivity"></activity>
     </application>
 
 </manifest>
