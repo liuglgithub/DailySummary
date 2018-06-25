@@ -2,7 +2,7 @@
 YY那个大概有：ImageLoader实现原理，Volley原理，Handler机制，事件分发机制，图片压缩，热更新热修复，内存溢出内存泄漏，常见设计模式(单例模式)，自定义控件流程，怎么定位异常
 
 
-Alibaba-ARouter
+Alibaba-ARouterSpannableString
 
 frecso
 
@@ -72,11 +72,19 @@ https://blog.csdn.net/chay_chan/article/details/75319452
 仿华为应用市场（开源项目）
 http://mp.weixin.qq.com/s/DmGMYI_4oMx-EYAcgbDvRA
 
+一款采用MVP模式的设计的仿造腾讯漫画的APP（重点01）
+https://github.com/zhhr1122/z_comic_new
+开源应用
+https://mp.weixin.qq.com/s/qqZ39W2gdlTIRimz8dmpXQ
+开源项目
+https://github.com/north2016/T-MVP
 仿微信
 https://www.jianshu.com/p/4300ffcf7081
 https://github.com/MonchChen/teach-request
 玩Android开源项目
 https://github.com/JsonChao/Awesome-WanAndroid
+
+
 2018最新精选的Android优秀开源库和项目，很有价值
 （
 1、用于显示使用PdfiumAndroid呈现的PDF的Android视图
@@ -108,8 +116,7 @@ https://mp.weixin.qq.com/s/-raDAyRYo8v_st4f0gp0yQ
 17-0912
 沉浸式 状态栏
 https://mp.weixin.qq.com/s/MHAhvGLMLiFHK-FgH964sw
-开源应用
-https://mp.weixin.qq.com/s/qqZ39W2gdlTIRimz8dmpXQ
+
 Google新推Lifecycle-aware Components 源码分析
 https://mp.weixin.qq.com/s/PuDA4MIb6lo-FVujNWQVhw
 
@@ -119,8 +126,7 @@ http://www.jianshu.com/p/de31cce8e62f
 http://www.jianshu.com/p/af6499abd5c2
 滑动到顶部，顶部变为搜索框，toolbar
 http://www.jianshu.com/p/0d263a436255
-开源项目
-https://github.com/north2016/T-MVP
+
 
 17-0913 仿微博系列
 CoordinatorLayout入门基础知识
@@ -137,6 +143,11 @@ https://mp.weixin.qq.com/s/TKO2d4K0675I5aeTGIWD_A
 https://mp.weixin.qq.com/s/ddTe5gu0orSIM1oG_BDblA
 
 https://www.jianshu.com/p/584f2e681dbf?
+
+自定义Behavior的艺术探索-仿UC浏览器主页（重点，不过太复杂了）
+https://www.jianshu.com/p/f7989a2a3ec2
+android ui 学习系列 - 初识 CoordinatorLayout（重点，01）
+https://www.jianshu.com/p/584f2e681dbf
 android ui 学习系列 - 安卓自带Behavior的使用
 https://www.jianshu.com/p/5e51d1858cf0
 https://www.jianshu.com/p/f2c4490d06b8
@@ -168,7 +179,8 @@ http://blog.csdn.net/zheng_jiao/article/details/76186637
 
 高仿美团APP页面滑动标题栏渐变效果
 https://www.jianshu.com/p/ec0d4a73c970
-
+CoordinatorLayout 自定义Behavior 高仿美团商家详情界面 实现页面内容复杂联动效果
+https://github.com/iielse/behavior-learn
 仿微博顶部导航条
 https://www.jianshu.com/p/77e811e1c987
 
@@ -179,8 +191,10 @@ https://segmentfault.com/q/1010000005702137
 https://github.com/ogaclejapan/SmartTabLayout
 http://blog.csdn.net/luck_mw/article/details/68948861
 
-强大、可定制、易扩展的 ViewPager 指示器框架。是ViewPagerIndicator、TabLayout、PagerSlidingTabStrip的最佳替代品。支持角标，更支持在非ViewPager场景下使用（使用hide()、show()切换Fragment或使用setVisibility切换FrameLayout里的View等
+tablayout indicator 强大、可定制、易扩展的 ViewPager 指示器框架。是ViewPagerIndicator、TabLayout、PagerSlidingTabStrip的最佳替代品。支持角标，更支持在非ViewPager场景下使用（使用hide()、show()切换Fragment或使用setVisibility切换FrameLayout里的View等
 https://github.com/hackware1993/MagicIndicator
+md风格的indicator
+https://github.com/tommybuonomo/dotsindicator
 
 底部导航tab
 https://mp.weixin.qq.com/s/VgDMZ-BTymIjwIgmrckETQ
@@ -190,6 +204,8 @@ https://mp.weixin.qq.com/s/Jq4VX2Dm8koMD49b2sTm3Q
 https://mp.weixin.qq.com/s/VgDMZ-BTymIjwIgmrckETQ
 Android底部导航栏总结
 https://www.jianshu.com/p/4d42f6bd2aa1
+一个底部导航，在选定的项目顶部有一个很棒的变形效果。
+https://github.com/tommybuonomo/morph-bottom-navigation?utm_medium=email&utm_source=gank.io
 
 17-0914
 recyclerView+倒计时
@@ -201,6 +217,10 @@ mvp使用
 http://www.jianshu.com/p/9d40b298eca9
 http://blog.csdn.net/lmj623565791/article/details/46596109
 http://www.jianshu.com/p/569ab68da482
+
+从 MVP学习代码封装 (1) - 综述
+https://www.jianshu.com/p/fa6e59bc50b6
+
 mvp高级封装
 http://mp.weixin.qq.com/s/63CD7d2uE-OZKooZU3RN5Q
 MVP架构实现的Github客户端(准备，搭建项目架构，功能实现，加入网络缓存)
@@ -221,8 +241,14 @@ okhtt&pretrofit源码分析，深度 百度网盘，会员花钱了，，，
 
 OKHTTP结合官网示例分析两种自定义拦截器的区别
 https://www.jianshu.com/p/d04b463806c8
+一个基于 stetho 的 OKhttp 抓包工具，可以实现在手机上面的抓包，可以方便平时开发中的调试。
+https://github.com/linkaipeng/OkNetworkMonitor/blob/master/README_ZH.md
+
 RxJava实例封装应用(优先)
 https://github.com/Carson-Ho/RxJava_Util
+
+我学 rxjava - 目录
+https://www.jianshu.com/p/9275b8af2e49
 
 http://mp.weixin.qq.com/s/t-1hbI9u8wgOIemwSnpzgw
 https://mp.weixin.qq.com/s/TlBMPd_pKej-_micjVodCQ
@@ -268,6 +294,9 @@ https://github.com/youth5201314/banner
 alibaba
 https://github.com/alibaba/UltraViewPager
 
+这是一个基于RecyclerView制作的Banner资源库
+https://github.com/Mr-XiaoLiang/RecyclerViewBanner
+
 2017-12-14对话框形式打开Activity
 http://blog.csdn.net/lamp_zy/article/details/7681213
 2017-12-15设置linearlayout的最大高度
@@ -306,6 +335,9 @@ https://blog.csdn.net/lmj623565791/article/details/37815413
 还在用Dialog吗DialogFragment带你体验完美高效率(popwindow、dialog，DialogFragment如何选择用哪一种)
 https://blog.csdn.net/androidstarjack/article/details/73824885
 
+网易云音乐效果的-BottomSheetDialog（CoordinatorLayout,底部弹窗）
+https://github.com/af913337456/WangyiyunBottomSheetDialog?utm_source=gank.io&utm_medium=email
+
 2017-12-20popwindow
 各种样式的popwindow，出现在不同位置
 https://github.com/PopFisher/SmartPopupWindow
@@ -314,7 +346,7 @@ https://github.com/PopFisher/SmartPopupWindow
 http://www.jianshu.com/p/ec5aeb204d09
 https://jinyb09017.github.io/2017/09/%E5%A4%9A%E5%9B%BE%E5%90%88%E5%B9%B6%E6%A1%86%E6%9E%B6%E5%AE%9E%E7%8E%B0(android)/
 
-2017-12-25任意界面悬浮窗
+2017-12-25任意界面悬浮窗，弹窗
 https://github.com/yhaolpz/FloatWindow?utm_source=gank.io&utm_medium=email
 
 2017-12-25缓存框架、
@@ -464,6 +496,12 @@ Explain all animations in Android. Android 动画详尽教程(好多动画优先
 https://github.com/OCNYang/Android-Animation-Set
 Android应用开发之所有动画使用详解（各种属性值的介绍_优先01）
 https://blog.csdn.net/yanbober/article/details/46481171
+Android自定义控件三部曲文章索引（动画，自定义view，重点优先03）
+https://blog.csdn.net/harvic880925/article/details/50995268
+PropertyValuesHolder.ofKeyframe属性动画，
+https://blog.csdn.net/xuefu_78/article/details/52415673
+Drawable动画，自定义view初步介绍
+https://blog.csdn.net/xuefu_78/article/details/73527663
 Android 动画总结
 https://www.jianshu.com/p/420629118c10
 Android 属性动画：这是一篇很详细的 属性动画 总结&攻略
@@ -549,6 +587,8 @@ https://www.cnblogs.com/jingmo0319/p/5586559.html
 http://blog.csdn.net/iromkoear/article/details/71279663
 Android 存储路径浅析
 https://www.jianshu.com/p/80e10b3dbba5
+了解 Android 应用的文件存储目录，掌握持久化数据的正确姿势
+https://www.jianshu.com/p/ebca517ae7d5
 
 2018-01-19拍照从相册选取裁剪图片
 https://www.2cto.com/kf/201501/371520.html
@@ -700,6 +740,7 @@ App性能优化系列结语篇
 https://www.jianshu.com/p/f7d59ffb7747
 android页面启动速度优化利器：在页面打开之前就预加载数据预加载：页面启动速度优化利器
 https://github.com/luckybilly/PreLoader/blob/master/README-zh-CN.md
+
 页面结构化在 Android 上的尝试bugly
 https://mp.weixin.qq.com/s/M45DM5Ix7a2fmrsE8VPvxg
 Android内存泄漏总结
@@ -714,6 +755,9 @@ Android性能优化之APK瘦身最全总结
 https://mp.weixin.qq.com/s/Eu91E-FNL1GZDXxtL4tMlw
 LeakCanary的原理，你知道么？
 https://mp.weixin.qq.com/s/ghu4kYoeaWHu4rDsF_esng
+JVM内存模型你只要看这一篇就够了
+https://www.jianshu.com/p/c9ac99b87d56
+
 2018-03-23 Android系统，应用层，四大组件，进阶，高级。
 Android进阶——Android四大组件启动机制之Activity启动过程
 https://mp.weixin.qq.com/s/cOPZIGb8d8jACpYD-mWRYQ
@@ -722,6 +766,9 @@ https://mp.weixin.qq.com/s/wNdRSs-U05LLK_ZT2p2SFg
 
 
 2018-03-27 recycleview
+
+我的recycleView技术大全(重点01，各种操作)
+https://www.jianshu.com/p/33cfa35d5188(重点)
 
 自定义LayoutManager，炫酷列表(各种效果，堆叠，群推荐)
 https://github.com/DingMouRen/LayoutManagerGroup
@@ -764,6 +811,14 @@ https://www.jianshu.com/p/561c80b23f45
 解决RecyclerView执行动画后item边距错误的问题
 https://blog.kyleduo.com/2017/07/27/recyclerview-wrong-decoration-inset/
 
+2018-03-29 adapter
+Android之Adapter的封装与抽象
+https://blog.csdn.net/jenly121/article/details/45078545
+Android之Adapter的封装与抽象（二）
+https://blog.csdn.net/jenly121/article/details/51610784
+Android之Adapter的封装与抽象（三）
+https://blog.csdn.net/jenly121/article/details/52313862
+
 2018-03-29 eventbus 集合
 https://mp.weixin.qq.com/s/TEUb_2phZV5cDAQxV1hhBg
 
@@ -779,12 +834,18 @@ https://mp.weixin.qq.com/s/_tfd7VOfj2xtDnOAtM5uiA
 https://github.com/LyndonChin/kotlin-docs-zh
 
 2018-04-02 键盘
+如何关闭或隐藏 Android 中的软键盘？
+https://www.jianshu.com/p/918f69c3e2cd
 自定义键盘
 https://mp.weixin.qq.com/s/S-1-eTMAsJV-GUboT8HsLQ
+Android 最简单的自定义数字键盘之一
+https://github.com/Jooyer/JooyerStudy
 一行代码实现Android软键盘与EditText的交互
 https://mp.weixin.qq.com/s/q-kEr_4JWT-LKIXaXskIoA
 Android键盘面板冲突 布局闪动处理方案
 https://github.com/Jacksgong/JKeyboardPanelSwitch/blob/master/README_zh.md
+数字输入控件，像支付宝、微信支付的密码输入面板（键盘）
+https://github.com/linkaipeng/NumberCodeView?utm_medium=email&utm_source=gank.io
 
 2018-04-02 架构 mvp mvc mvvm
 https://mp.weixin.qq.com/s/aRon6QtRuQwlqIZmhZIsOQ
@@ -853,6 +914,9 @@ https://github.com/kyleduo/SwitchButton
 
 Android - 微信 - 朋友圈 - 小视频播放，wechat friend-circle,small video play
 https://github.com/af913337456/WeChatVideoView
+
+下拉筛选菜单
+https://github.com/FJ917/FJDropDownMenu?utm_source=gank.io&utm_medium=email
 
 2018-04-02 自定义view、
 
@@ -939,6 +1003,9 @@ https://juejin.im/entry/59c9ae2f6fb9a00a3f24f652
 https://github.com/yangchong211/YCAudioPlayer
 一个支持自定义UI布局, 多种加密算法,直播 ,亮度,音量,快进等手势 ,广告视频预览,多种加载模式 ,多种分辨率切换 ,多种封面图, 自定义数据源,列表播放,倍数播放,边播变缓存<font color="red">不是使用AndroidVideoCache</font>,离线播放,神奇的播放器
 https://github.com/yangchaojiang/yjPlay
+
+高复用性、低耦合的视频播放器（重点01（自定义view，view和业务的解耦重点02））
+https://mp.weixin.qq.com/s/Y766VgYxMo9iyxgpYaRb4A
 
 A complete music player in flutter with cool UI and design.（阿三的项目）
 https://github.com/amangautam1/flutter-musicplayer?utm_medium=email&utm_source=gank.io
@@ -1081,3 +1148,45 @@ https://github.com/Jay-Goo/WaveLineView/blob/master/blog.md
 2018-05-31数据库
 Sqlite全面学习（一）
 https://blog.csdn.net/yanbober/article/details/45567149
+
+2018-06-06表格（汽车之家）十分强大
+一款android自动生成表格框架---An Android automatically generated table framework
+https://github.com/huangyanbin/smartTable?utm_source=gank.io&utm_medium=email
+
+2018-06-06    SpannableString
+我赌5毛你没见过这样的SpannableString(可以自定义字体)
+https://www.jianshu.com/p/509b0d2626f4
+
+2018-06-20   Python
+https://time.geekbang.org/course/intro/98
+
+2018-06-20    RecyclerView 实现复杂页面复杂布局多布局
+
+vlayout
+https://blog.csdn.net/VRoymond/article/details/71258292
+
+Android开源库V - Layout：淘宝、天猫都在用的UI框架，赶紧用起来吧！
+https://www.jianshu.com/p/6b658c8802d1
+
+https://mp.weixin.qq.com/s/GY_VkEnX8SMZTHl-CSUk4Q
+https://blog.csdn.net/liaoinstan/article/details/52671101
+
+https://drakeet.me/
+
+Android 复杂的多类型列表视图新写法：MultiType 3.0
+https://drakeet.me/multitype/
+https://github.com/drakeet/MultiType
+
+http://mp.weixin.qq.com/s/XbR9M2oeYcvrhG6GgjIgGA
+http://blog.csdn.net/guanyingcao/article/details/75170921
+http://crazysunj.com/2017/08/14/BRVAH-MTRVA%EF%BC%8C%E5%A4%8D%E6%9D%82%EF%BC%9F%E4%B8%8D%E5%AD%98%E5%9C%A8%E7%9A%84/#more
+
+不一样的RecyclerView优雅实现复杂列表布局（慕课网,视频教程）
+https://www.imooc.com/learn/731
+MultiType-Adapter 优雅的实现 RecyclerVIew 中的复杂布局
+https://juejin.im/entry/59434db3fe88c2006a616d1f
+Recycleview实现复杂页面 三种以上布局 瀑布流 多布局 scrollview嵌套recyclerView 显示不全 滑动冲突 之进阶终极篇
+https://blog.csdn.net/iamdingruihaha/article/details/54772834
+RecyclerView混合布局
+本来想把公司的UI图放上来，考虑到版权等未知因素，就拿网上的图来说了：
+https://www.cnblogs.com/anni-qianqian/p/6744871.html
