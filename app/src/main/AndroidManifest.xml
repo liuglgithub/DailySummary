@@ -160,7 +160,18 @@
         <activity android:name=".animation.springanimator.QSpringActivity" />
         <activity android:name=".animation.springanimator.BezierInterploatorActivity" />
         <activity android:name=".popwindow.PopWindwoActivity" />
-        <activity android:name=".animation.viewandanimator.DefinedViewAndAnimatorActivity"></activity>
+        <activity android:name=".animation.viewandanimator.DefinedViewAndAnimatorActivity" />
+        <activity android:name=".nestedscroll.coordinatorlayout.jianshublog01.JianshuBlog_one_Activity" />
+        <activity android:name=".nestedscroll.coordinatorlayout.jianshublog01.Scroll_flagActivity" />
+        <activity android:name=".nestedscroll.coordinatorlayout.jianshublog01.EnterAlwaysActivity" />
+        <activity android:name=".nestedscroll.coordinatorlayout.jianshublog01.CollapsingToolbarLayoutActivity" />
+        <activity android:name=".nestedscroll.coordinatorlayout.jianshublog01.weibo.WeiboFindActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>

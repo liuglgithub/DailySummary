@@ -57,6 +57,18 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/allCoordinatorLayout" />
 
+            <Button
+                android:text="CoordinatorLayout 完全解析简书01"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/cblog_01" />
+
+            <Button
+                android:text="实现微博发现页面的效果（利用CoordinatorLayout+AppBarLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/weiboblog_01" />
+
         </LinearLayout>
     </ScrollView>
 
