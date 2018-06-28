@@ -166,11 +166,6 @@
         <activity android:name=".nestedscroll.coordinatorlayout.jianshublog01.EnterAlwaysActivity" />
         <activity android:name=".nestedscroll.coordinatorlayout.jianshublog01.CollapsingToolbarLayoutActivity" />
         <activity android:name=".nestedscroll.coordinatorlayout.jianshublog01.weibo.WeiboFindActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
         <activity android:name=".nestedscroll.coordinatorlayout.jianshublog01.weibo.Pro_01Activity" />
         <activity android:name=".nestedscroll.coordinatorlayout.jianshublog01.weibo.Pro_02Activity"></activity>
