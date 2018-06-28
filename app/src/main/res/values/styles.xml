@@ -47,4 +47,8 @@
     </declare-styleable>
     <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
     <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+    <style name="MainAppBar" parent="android:Widget">
+        <item name="elevation">0dip</item>
+        <item name="android:background">@android:color/transparent</item>
+    </style>
 </resources>

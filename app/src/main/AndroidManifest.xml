@@ -172,6 +172,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".nestedscroll.coordinatorlayout.jianshublog01.weibo.Pro_01Activity" />
+        <activity android:name=".nestedscroll.coordinatorlayout.jianshublog01.weibo.Pro_02Activity"></activity>
     </application>
 
 </manifest>

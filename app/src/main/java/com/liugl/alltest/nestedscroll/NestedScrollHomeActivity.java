@@ -12,6 +12,7 @@ import com.liugl.alltest.nestedscroll.coordinatorlayout.all01.CoordinatorLayoutA
 import com.liugl.alltest.nestedscroll.coordinatorlayout.demo01.MyBehaviroTowTextviewActivity;
 import com.liugl.alltest.nestedscroll.coordinatorlayout.demo2.EaseyBehaviorActivity;
 import com.liugl.alltest.nestedscroll.coordinatorlayout.jianshublog01.JianshuBlog_one_Activity;
+import com.liugl.alltest.nestedscroll.coordinatorlayout.jianshublog01.weibo.WeiboFindActivity;
 import com.liugl.alltest.nestedscroll.coordinatorlayout.uc.UCBehavieMain3Activity;
 import com.liugl.alltest.nestedscroll.defapi.DefApiActivity;
 import com.liugl.alltest.nestedscroll.nestedapi.NestedApiActivity;
@@ -54,7 +55,7 @@ public class NestedScrollHomeActivity extends BaseActivity {
         ButterKnife.bind(this);
     }
 
-    @OnClick({R.id.cblog_01,R.id.allCoordinatorLayout,R.id.ucbtn_txt,R.id.btn_txt, R.id.behavior_01, R.id.def, R.id.nestedscrool})
+    @OnClick({R.id.weiboblog_01, R.id.cblog_01, R.id.allCoordinatorLayout, R.id.ucbtn_txt, R.id.btn_txt, R.id.behavior_01, R.id.def, R.id.nestedscrool})
     public void onViewClick(View view) {
         switch (view.getId()) {
             case R.id.def:
@@ -88,6 +89,10 @@ public class NestedScrollHomeActivity extends BaseActivity {
                 Intent cblog_01 = new Intent(this, JianshuBlog_one_Activity.class);
                 startActivity(cblog_01);
 
+                break;
+            case R.id.weiboblog_01:
+                Intent weiboblog_01 = new Intent(this, WeiboFindActivity.class);
+                startActivity(weiboblog_01);
                 break;
         }
     }

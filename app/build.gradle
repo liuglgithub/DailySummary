@@ -74,7 +74,8 @@ dependencies {
     compile 'com.facebook.rebound:rebound:0.3.8'
     //系统弹性动画
     compile 'com.android.support:support-dynamic-animation:26.0.0'
-
+//tablayout
+    compile 'com.ogaclejapan.smarttablayout:library:1.6.1@aar'
 
 }
 // /**/  Project 的gradle文件内容
