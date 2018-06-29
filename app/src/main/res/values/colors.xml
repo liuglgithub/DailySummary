@@ -25,5 +25,10 @@
     <color name="black">#000000</color>
     <color name="color_ffffff">#ffffff</color>
     <color name="color_e5e5e5">#e5e5e5</color>
-
+    <color name="background_tab_pressed">#6633B5E5</color>
+    <color name="bg_tab_select">#80FF80</color>
+    <!-- <color name="bg_tab_unselect">#C0C0C0</color>-->
+    <color name="bg_tab_unselect">#272636</color>
+    <color name="bg_tab">#fff</color>
+    <color name="tab_color">@android:color/white</color>
 </resources>

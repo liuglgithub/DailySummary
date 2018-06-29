@@ -15,6 +15,7 @@ public class CSDN01Activity extends AppCompatActivity implements View.OnClickLis
 
     Button vp01;
     Button vp02;
+    Button vp03;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -22,9 +23,11 @@ public class CSDN01Activity extends AppCompatActivity implements View.OnClickLis
         setContentView(R.layout.activity_csdn01);
         vp01 = this.findViewById(R.id.vp01);
         vp02 = this.findViewById(R.id.vp02);
+        vp03 = this.findViewById(R.id.vp03);
 
         vp01.setOnClickListener(this);
         vp02.setOnClickListener(this);
+        vp03.setOnClickListener(this);
     }
 
     @Override
@@ -40,6 +43,11 @@ public class CSDN01Activity extends AppCompatActivity implements View.OnClickLis
 
                 Intent csdnblog_02 = new Intent(this, ViewPagerParallaxActivity.class);
                 startActivity(csdnblog_02);
+
+                break;
+            case R.id.vp03:
+                Intent csdnblog_03 = new Intent(this, ZhihuBottom01Activity.class);
+                startActivity(csdnblog_03);
 
                 break;
         }

@@ -170,7 +170,8 @@
         <activity android:name=".nestedscroll.coordinatorlayout.jianshublog01.weibo.Pro_02Activity" />
         <activity android:name=".nestedscroll.coordinatorlayout.csdn.CSDN01Activity" />
         <activity android:name=".nestedscroll.coordinatorlayout.csdn.ViewPager01Activity" />
-        <activity android:name=".nestedscroll.coordinatorlayout.csdn.ViewPagerParallaxActivity"></activity>
+        <activity android:name=".nestedscroll.coordinatorlayout.csdn.ViewPagerParallaxActivity" />
+        <activity android:name=".nestedscroll.coordinatorlayout.csdn.ZhihuBottom01Activity"></activity>
     </application>
 
 </manifest>
