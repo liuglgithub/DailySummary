@@ -24,7 +24,9 @@ import com.ogaclejapan.smarttablayout.SmartTabLayout;
  * AppBarLayout里面嵌套两个layout
  * 这时候发现只有第一个能处理参与滑动的操作，不清是否是因为behavior引起的
  * 但是第一种实现后，header下拉的动画没有了，，，，
- * 这两种方法都没有嵌套CollapsingToolbarLayout（具体用法还需要研究）
+ * 这两种方法都没有嵌套CollapsingToolbarLayout（具体用法还需要研究
+ *  1、找到原因了，因为CoordinatorLayout的外出又嵌套了一层Layout导致的,去掉后就正常了，
+ * ）
  */
 public class Pro_01Activity extends AppCompatActivity {
 

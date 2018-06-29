@@ -165,10 +165,11 @@
         <activity android:name=".nestedscroll.coordinatorlayout.jianshublog01.Scroll_flagActivity" />
         <activity android:name=".nestedscroll.coordinatorlayout.jianshublog01.EnterAlwaysActivity" />
         <activity android:name=".nestedscroll.coordinatorlayout.jianshublog01.CollapsingToolbarLayoutActivity" />
-        <activity android:name=".nestedscroll.coordinatorlayout.jianshublog01.weibo.WeiboFindActivity">
-        </activity>
+        <activity android:name=".nestedscroll.coordinatorlayout.jianshublog01.weibo.WeiboFindActivity" />
         <activity android:name=".nestedscroll.coordinatorlayout.jianshublog01.weibo.Pro_01Activity" />
-        <activity android:name=".nestedscroll.coordinatorlayout.jianshublog01.weibo.Pro_02Activity"></activity>
+        <activity android:name=".nestedscroll.coordinatorlayout.jianshublog01.weibo.Pro_02Activity" />
+        <activity android:name=".nestedscroll.coordinatorlayout.csdn.CSDN01Activity" />
+        <activity android:name=".nestedscroll.coordinatorlayout.csdn.ViewPager01Activity"></activity>
     </application>
 
 </manifest>
