@@ -24,7 +24,6 @@
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
             android:background="?attr/colorPrimary"
-            app:layout_scrollFlags="scroll|enterAlways"
             app:tabIndicatorColor="@color/colorAccent"
 
             app:tabIndicatorHeight="4dp"

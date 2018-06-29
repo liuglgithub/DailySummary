@@ -14,14 +14,17 @@ import com.liugl.alltest.R;
 public class CSDN01Activity extends AppCompatActivity implements View.OnClickListener {
 
     Button vp01;
+    Button vp02;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_csdn01);
         vp01 = this.findViewById(R.id.vp01);
+        vp02 = this.findViewById(R.id.vp02);
 
         vp01.setOnClickListener(this);
+        vp02.setOnClickListener(this);
     }
 
     @Override
@@ -31,6 +34,12 @@ public class CSDN01Activity extends AppCompatActivity implements View.OnClickLis
 
                 Intent csdnblog_01 = new Intent(this, ViewPager01Activity.class);
                 startActivity(csdnblog_01);
+
+                break;
+            case R.id.vp02:
+
+                Intent csdnblog_02 = new Intent(this, ViewPagerParallaxActivity.class);
+                startActivity(csdnblog_02);
 
                 break;
         }
