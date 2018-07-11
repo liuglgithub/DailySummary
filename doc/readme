@@ -139,13 +139,18 @@ https://mp.weixin.qq.com/s/8KDmWV_IU2NyP8DwQV52AQ
 ConstraintLayout的崛起之路
 https://mp.weixin.qq.com/s/TKO2d4K0675I5aeTGIWD_A
 
-[Digging] 实现支付宝首页交互效果，Behavior
+[Digging] 支付宝首页交互三部曲 1 CoordinatorLayout和Behavior
+https://blog.kyleduo.com/2017/07/14/alipay-home-1-coordinatorlayout/
+[Digging] 支付宝首页交互三部曲 2 自定义Behavior
+https://blog.kyleduo.com/2017/07/17/alipay-home-2-custom-behavior/
+[Digging] 支付宝首页交互三部曲 3 实现支付宝首页交互
 https://mp.weixin.qq.com/s/ddTe5gu0orSIM1oG_BDblA
 
-https://www.jianshu.com/p/584f2e681dbf?
 
 自定义Behavior的艺术探索-仿UC浏览器主页（重点，不过太复杂了）
 https://www.jianshu.com/p/f7989a2a3ec2
+CoordinatorLayout 完全解析（重点，样式比较多）
+https://www.jianshu.com/p/4a77ae4cd82f
 android ui 学习系列 - 初识 CoordinatorLayout（重点，01）
 https://www.jianshu.com/p/584f2e681dbf
 android ui 学习系列 - 安卓自带Behavior的使用
@@ -158,24 +163,44 @@ https://www.jianshu.com/p/f051863866fc
 https://www.jianshu.com/p/a3e2a12b6ea6
 ScalingLayout
 https://github.com/iammert/ScalingLayout
-嵌套滑动
-https://mp.weixin.qq.com/s/jD2zuLth197tBiVbYfjP8w
 
-仿MD样式的顶部滑动，切换布局，Android开发之仿微博详情页（滑动固定顶部栏效果）
+☐ 嵌套滑动
+https://mp.weixin.qq.com/s/jD2zuLth197tBiVbYfjP8w
+Android Nested Scrolling（原理解析）
+https://blog.kyleduo.com/2017/03/08/nested-scrolling/
+Android NestedScrolling机制
+https://www.jianshu.com/p/aff5e82f0174
+
+
+仿MD样式的顶部滑动，切换布局，Android开发之仿微博详情页（滑动固定顶部栏效果,没有使用md实现）
 https://www.jianshu.com/p/82926df7518c
 
 滑动到顶部，顶部变为搜索框，toolbar
 http://www.jianshu.com/p/0d263a436255
 
+使用CoordinatorLayout打造各种炫酷的效果（重点03 ，效果很多）
+https://blog.csdn.net/gdutxiaoxu/article/details/52858598
 实现微博发现页面的效果（利用CoordinatorLayout+AppBarLayout
 https://www.jianshu.com/p/18363b0ea60f
-http://blog.csdn.net/gdutxiaoxu/article/details/71732642
+
+
+CoordinatorLayout 使用 (高仿【摩拜单车】个人中心)
+https://juejin.im/entry/58bd03e661ff4b006cf78689
+使用 CoordinatorLayout 打造一个炫酷的详情页
+http://android.jobbole.com/84557/
+Android:TabLayout向上滑动停留页面顶部CoordinatorLayout
+http://blog.csdn.net/zheng_jiao/article/details/76186637
+标题栏悬停在顶部(nestednScrolling实现)
+https://www.jianshu.com/p/aff5e82f0174
 
 Android仿微博实现列表滑动播放/暂停视频
 http://blog.csdn.net/a787486489/article/details/52448200
 
-Android:TabLayout向上滑动停留页面顶部
-http://blog.csdn.net/zheng_jiao/article/details/76186637
+
+android商品详情页开发
+https://juejin.im/entry/5a03a736f265da430c1140e0
+仿蘑菇街, 蜜芽宝贝, 京东商品详情界面, 与 NestedScroll 滑动
+https://juejin.im/entry/590fc1b2a22b9d0058031837
 
 高仿美团APP页面滑动标题栏渐变效果
 https://www.jianshu.com/p/ec0d4a73c970
@@ -233,6 +258,8 @@ https://mp.weixin.qq.com/s/TlBMPd_pKej-_micjVodCQ
 https://mp.weixin.qq.com/s/2c5aIgGkOTCHbA7fCoT3Ww
 mvp浅谈Android中的MVP与动态代理
 https://mp.weixin.qq.com/s/Bktzl66Twp3jsuYLZrQPfQ
+一个小例子彻底搞懂 MVP
+https://mp.weixin.qq.com/s/Jrv6f_TU-LrzKm65wyF97w
 
 rxjava2 & Retrofit & okhttp
 
@@ -328,6 +355,9 @@ https://juejin.im/post/5a4f3d266fb9a01c9e45c3ad
 Android BaseDialog(开发必备)动画、加载进度、阴影、上下左右中 进入
 https://github.com/AnJiaoDe/BaseDialog?utm_medium=email&utm_source=gank.io
 
+弹窗、浮层、BlurPopupWindow
+https://blog.kyleduo.com/2017/03/27/blur-popup-window/
+
 Android 撸起袖子，自己封装 DialogFragment
 https://juejin.im/entry/58eb03cd61ff4b0061a79c6d
 Android 官方推荐 : DialogFragment 创建对话框
@@ -341,10 +371,16 @@ https://github.com/af913337456/WangyiyunBottomSheetDialog?utm_source=gank.io&utm
 2017-12-20popwindow
 各种样式的popwindow，出现在不同位置
 https://github.com/PopFisher/SmartPopupWindow
+BubbleView是带箭头的Android气泡控件/容器类，支持在布局中通过自定义属性或代码进行丰富的定制
+https://github.com/cpiz/BubbleView
+
 
 2017-12-21群头像
 http://www.jianshu.com/p/ec5aeb204d09
+多图合并框架实现
 https://jinyb09017.github.io/2017/09/%E5%A4%9A%E5%9B%BE%E5%90%88%E5%B9%B6%E6%A1%86%E6%9E%B6%E5%AE%9E%E7%8E%B0(android)/
+Android 仿钉钉、微信 群聊组合头像
+https://github.com/Othershe/CombineBitmap
 
 2017-12-25任意界面悬浮窗，弹窗
 https://github.com/yhaolpz/FloatWindow?utm_source=gank.io&utm_medium=email
@@ -370,6 +406,17 @@ Android开发：最全面、最易懂的Android屏幕适配解决方案
 http://blog.csdn.net/wangwangli6/article/details/63258270
 目前Android最全面、最易懂的Android屏幕适配解决方案
 https://blog.csdn.net/xxf377376701/article/details/78925646
+
+
+Android 目前最稳定和高效的UI适配方案（头条适配）
+https://www.jianshu.com/p/a4b8e4c5d9b0?utm_medium=email&utm_source=gank.io
+
+屏幕适配那些事（01）屏幕适配和逻辑分辨率
+https://blog.kyleduo.com/2016/10/24/density-01-basic/
+屏幕适配那些事（02）Android逻辑像素刨根问底
+https://blog.kyleduo.com/2016/10/24/density-02-android-density/
+屏幕适配那些事（03）几点建议
+https://blog.kyleduo.com/2016/10/24/density-03-suggestion/
 
 http://blog.csdn.net/ahence/article/details/76906799
 http://blog.csdn.net/me_dong/article/details/53689493
@@ -402,6 +449,8 @@ https://github.com/TakuSemba/Spotlight
 https://www.jianshu.com/p/1d2dcbc1e0f2
 一个小巧好用的Android引导蒙版（浮层）库
 https://mp.weixin.qq.com/s/XGGivRNWE6ijlwe5kA2owg
+仿zaker引导界面的视图联动效果 (艾米)
+https://github.com/jianghejie/LinkedViewPager
 
 2018-01-02城市三级联动 ，时间，日期，性别，选择视图view pickview
 http://blog.csdn.net/wulianghuan/article/details/41549189
@@ -413,7 +462,7 @@ https://github.com/gzu-liyujiang/AndroidPicker
 小米日期选择控件实现详解
 https://mp.weixin.qq.com/s/BMhzwnQh9r0upMMtgHcg4w
 
-2018-01-02动画库
+2018-01-02动画库动画全集动画合集
 http://blog.csdn.net/haidaoduozhu/article/details/65632681
 https://www.zhihu.com/question/27718787
 https://www.jianshu.com/p/98f2ec280945
@@ -522,6 +571,8 @@ FrameAnimation
 防OOM,低内存帧动画实现,比Android原生帧动画性能更好
 https://blog.csdn.net/chay_chan/article/details/79044579
 
+Android仿美团订单悬浮view（）
+https://blog.csdn.net/kuangxiaoguo0123/article/details/69063405
 
 2018-01-08高斯模糊
 http://blog.csdn.net/gao_chun/article/details/52193511
@@ -558,6 +609,13 @@ https://mp.weixin.qq.com/s/wFwlVYx5zsoGmjsOfPJckg
 https://mp.weixin.qq.com/s/PUf9Xkkij3X0Xt9mysPR_A
 一款超棒的小程序开发框架和一个图片处理工具利器（内含福利）
 https://mp.weixin.qq.com/s/wPUCNhUnsBB6fAOScAvCUQ
+Android开发人员不得不收集的代码
+http://sendtion.cn/archives/502
+Pandora 是一款无需ROOT、可以直接在 应用内 查看和修改包括网络、数据库、UI等的Android工具箱，适合开发和测试阶段的各种问题的快速定位
+https://github.com/whataa/pandora/blob/master/README_CN.md
+推荐几个好用的 Studio 插件
+https://mp.weixin.qq.com/s/TSMtHjPcUh6ZuMTXyLpQmA
+
 
 2018-01-12As-AndroidStudio3.0之坑
 http://www.jb51.net/article/127071.htm
@@ -641,6 +699,9 @@ InstagramPhotoPicker
 https://github.com/Skykai521/InstagramPhotoPicker
 类似QQ空间，微信朋友圈，微博主页等，展示图片的九宫格控件
 https://github.com/jeasonlzy/NineGridView
+一个图片浏览框架,类似微信图片浏览,手势向下滑动关闭,图片加载引擎自定义,支持长按,单击监听,切换监听,自定义任意的遮罩层，实现各种效果,支持横竖屏切换,简单方便。
+https://github.com/maning0303/MNImageBrowser
+
 2018-01-19 相机，自定义相机
 https://github.com/Skykai521/StickerCamera
 
@@ -726,6 +787,14 @@ Groovy脚本基础全攻略
 https://blog.csdn.net/yanbober/article/details/49047515
 Gradle脚本基础全攻略
 https://blog.csdn.net/yanbober/article/details/49314255
+
+Gradle的学习系列《Gradle for Android》笔记(1)：Getting started（一共7个系列）
+https://blog.kyleduo.com/2016/12/23/gradle-for-android-1-getting-started/
+https://blog.kyleduo.com/archives/page/4/
+
+为什么我们需要掌握Gradle的这些知识？
+https://mp.weixin.qq.com/s/g9qgtNKTnLmr11_YxScFBA
+
 2018-03-23 性能优化
 https://mp.weixin.qq.com/s/8bQ4ES5SBvnvPoaw8aGcig
 blockcanry01
@@ -757,6 +826,15 @@ LeakCanary的原理，你知道么？
 https://mp.weixin.qq.com/s/ghu4kYoeaWHu4rDsF_esng
 JVM内存模型你只要看这一篇就够了
 https://www.jianshu.com/p/c9ac99b87d56
+实践App内存优化：如何有序地做内存分析与优化
+https://mp.weixin.qq.com/s/yD9walcQmGR19fUpM_oBgQ
+记一次Android内存泄漏的优化经历
+https://mp.weixin.qq.com/s/870VVaqy-smxnxaAf2ZDhw
+如何排查列表卡顿问题 | 性能优化技巧知识梳理
+https://mp.weixin.qq.com/s/pziDgzu24js2e1Z6jahJFQ
+
+Android Bitmap变迁与原理解析（4.x-8.x）
+https://www.jianshu.com/p/d5714e8987f3
 
 2018-03-23 Android系统，应用层，四大组件，进阶，高级。
 Android进阶——Android四大组件启动机制之Activity启动过程
@@ -765,7 +843,7 @@ https://mp.weixin.qq.com/s/cOPZIGb8d8jACpYD-mWRYQ
 https://mp.weixin.qq.com/s/wNdRSs-U05LLK_ZT2p2SFg
 
 
-2018-03-27 recycleview
+2018-03-27 RecyclerView
 
 我的recycleView技术大全(重点01，各种操作)
 https://www.jianshu.com/p/33cfa35d5188(重点)
@@ -847,6 +925,12 @@ https://github.com/Jacksgong/JKeyboardPanelSwitch/blob/master/README_zh.md
 数字输入控件，像支付宝、微信支付的密码输入面板（键盘）
 https://github.com/linkaipeng/NumberCodeView?utm_medium=email&utm_source=gank.io
 
+字母，符号，数字&自定义安全键盘
+https://github.com/onlyloveyd/LazyKeyboard
+
+彻底搞定Android开发中软键盘的常见问题
+https://blog.csdn.net/mynameishuangshuai/article/details/51567357
+
 2018-04-02 架构 mvp mvc mvvm
 https://mp.weixin.qq.com/s/aRon6QtRuQwlqIZmhZIsOQ
 
@@ -856,6 +940,12 @@ Android主流UI开源库整理
 https://www.jianshu.com/p/47a4a7b99364
 UI效果合集
 https://github.com/opendigg/awesome-github-android-ui
+Github优秀Android开源项目,值得引用与学习
+https://juejin.im/post/5a30ede35188252da0536cec
+安卓UI - 收藏集 - 掘金-集合
+https://www.jianshu.com/p/1af2231fa3b2
+Android常用三方框架 各种UI效果，
+https://www.jianshu.com/p/11364761394b
 
 Android实现社交应用中的评论和回复功能
 https://mp.weixin.qq.com/s/bNuo5uByKCb4RDMSGc_fjQ
@@ -868,10 +958,7 @@ android仿网易云音乐、即时通讯、bilibili、沙漏动画等源码
 http://www.jcodecraeer.com/plus/view.php?aid=8884
 
 
-安卓UI - 收藏集 - 掘金-集合
-https://www.jianshu.com/p/1af2231fa3b2
-Android常用三方框架 各种UI效果，
-https://www.jianshu.com/p/11364761394b
+
 
 Android 仿当乐游戏详情页面(一)
 http://www.laoyuyu.me/2016/03/21/android_dl_game_detail_1/#more
@@ -920,6 +1007,14 @@ https://github.com/FJ917/FJDropDownMenu?utm_source=gank.io&utm_medium=email
 
 2018-04-02 自定义view、
 
+时间轴（快速简单的定制一个时间轴布局（LinearLayout））
+http://www.jcodecraeer.com/a/anzhuokaifa/androidkaifa/2016/0121/3902.html
+Android时间轴(Timeline)效果的实现
+https://www.jianshu.com/p/e489a0e64246
+
+一个Android富文本类库，支持图文混排，支持编辑和预览，支持插入和删除图片。
+https://github.com/sendtion/XRichText
+
 水波按进度上升，带环形进度条
 https://github.com/Modificator/water-wave-progress
 百度Loading小球
@@ -964,6 +1059,15 @@ https://github.com/iammert/ScalingLayout
 CardView 自定义形状的CardView，可以修改阴影颜色，
 类似小票饭票电影票发票抽奖券效果的卡片列表，并且可以修改阴影颜色
 http://android.ctolib.com/vivian8725118-CardView.html
+仿京东金融首页的有速率差的联动ScrollView
+https://github.com/meiniepan/TogetherScrollView?utm_medium=email&utm_source=gank.io
+
+一步步自定义一个封面选择框，类似上传头像的时候裁切图片的效果
+https://mp.weixin.qq.com/s/koz0MpYWgvnW3FMDgj2H-A
+数字滚动效果 RollingText 可高度定制，数字滚动效果 (枫叶)
+https://github.com/YvesCheung/RollingText
+Android自定义之圆弧滑动效果
+https://mp.weixin.qq.com/s/KNWMqF2V9hCgrVyrEQyizg
 
 2018-04-02 Splash &启动闪屏&冷启动页
  教你如何实现 Splash 页面三秒跳转和动态下载最新背景图
@@ -974,15 +1078,37 @@ https://github.com/ImportEffort/SplashActivityDemo
 http://blog.csdn.net/lulicheng/article/details/78665350
 
 2018-04-02 https协议http协议
+极客时间上订阅了HTTP课程（重点01）
 也许，这样理解HTTPS更容易
 https://mp.weixin.qq.com/s/yEs0n__bFekzF2m3QEwNfA
 关于HTTPS的那些事
 https://mp.weixin.qq.com/s/E75toyRukUHEtt34-snEgQ
 也许，这样理解HTTPS更容易
 https://mp.weixin.qq.com/s/dwqW-VDsSVCItfbZB1htyA
+HTTP 必知必会的那些
+https://mp.weixin.qq.com/s/Fazx13maQfPJItfkOqk9FQ
 
-2018-04-03 Activity状态保存与恢复
+Android wifi上网跟4G上网的区别
+https://www.jianshu.com/p/8e7cd89de4e8
+Android 3G/4G流量上网原理简析
+https://www.jianshu.com/p/0d05e5f71a70
+
+2018-04-03 Activity状态保存与恢复 应用恢复，APP恢复，杀死进程恢复
 https://mp.weixin.qq.com/s/lrLlAmC5U4Q4HVhU34H6Qg
+被后台杀死后，Android应用如何重新走闪屏逻辑
+https://www.jianshu.com/p/4fc10026c1f8
+
+Android后台杀死系列之一：FragmentActivity及PhoneWindow后台杀死处理机制
+https://www.jianshu.com/p/00fef8872b68
+Android后台杀死系列之二：ActivityManagerService与App现场恢复机制
+https://www.jianshu.com/p/e3612a9b1af3
+Android后台杀死系列之三：LowMemoryKiller原理（4.3-6.0）
+https://www.jianshu.com/p/23cf3199f606
+
+2018-04-03 Activity启动模式
+Android面试官装逼失败之：Activity的启动模式
+https://www.jianshu.com/p/b3a95747ee91
+
 
 2018-04-03 音频视频音视频
 
@@ -1091,12 +1217,19 @@ https://blog.csdn.net/yanbober/article/details/45312395
 
 
 2018-04-27  重构，整体架构
+我对移动端架构的思考
+https://mp.weixin.qq.com/s/OEzcsPZHCVkjeUCh6hMuWg
 关于App重构的几个方面
 https://www.jianshu.com/p/1125f4be4cc3
 移动架构之代码分离和解耦-网络再隔离
 https://mp.weixin.qq.com/s/_y3lv0PIkpF8-EQecheKZQ
 想知道阿里巴巴的移动APP是如何做持续交付的吗？
 https://mp.weixin.qq.com/s/wcbHxTKahN-QfU37XRaltg
+
+Android Architecture Components 只看这一篇就够了google（Lifecycle，Room）
+https://mp.weixin.qq.com/s/YLtKpX9BYt78UB5O-52Qsg
+Android新组件Lifecycle详解
+https://mp.weixin.qq.com/s/jU-UHkRbiruBq6BcNOjr5w
 
 2018-04-27 下拉刷新
 、BGARefreshLayout-Android
@@ -1152,13 +1285,18 @@ https://blog.csdn.net/yanbober/article/details/45567149
 2018-06-06表格（汽车之家）十分强大
 一款android自动生成表格框架---An Android automatically generated table framework
 https://github.com/huangyanbin/smartTable?utm_source=gank.io&utm_medium=email
+一个开源的、完善的、简洁的课程表控件
+https://github.com/zfman/TimetableView
 
 2018-06-06    SpannableString
 我赌5毛你没见过这样的SpannableString(可以自定义字体)
 https://www.jianshu.com/p/509b0d2626f4
 
-2018-06-20   Python
+2018-06-20 付费
+  Python
 https://time.geekbang.org/course/intro/98
+React实战进阶 45 讲
+https://time.geekbang.org/course/intro/100
 
 2018-06-20    RecyclerView 实现复杂页面复杂布局多布局
 
@@ -1177,9 +1315,15 @@ Android 复杂的多类型列表视图新写法：MultiType 3.0
 https://drakeet.me/multitype/
 https://github.com/drakeet/MultiType
 
+Android MultiType第三方库的基本使用和案例+DiffUtil的简单用法
+https://www.cnblogs.com/Jason-Jan/p/8004223.html#_label3
+
 http://mp.weixin.qq.com/s/XbR9M2oeYcvrhG6GgjIgGA
 http://blog.csdn.net/guanyingcao/article/details/75170921
 http://crazysunj.com/2017/08/14/BRVAH-MTRVA%EF%BC%8C%E5%A4%8D%E6%9D%82%EF%BC%9F%E4%B8%8D%E5%AD%98%E5%9C%A8%E7%9A%84/#more
+
+一种优雅的方式实现RecyclerView条目多类型（放弃vlayout不使用用vlayout_csdn）
+https://blog.csdn.net/xuehuayous/article/details/80021325
 
 不一样的RecyclerView优雅实现复杂列表布局（慕课网,视频教程）
 https://www.imooc.com/learn/731
@@ -1190,3 +1334,49 @@ https://blog.csdn.net/iamdingruihaha/article/details/54772834
 RecyclerView混合布局
 本来想把公司的UI图放上来，考虑到版权等未知因素，就拿网上的图来说了：
 https://www.cnblogs.com/anni-qianqian/p/6744871.html
+
+2018-06-20    开源库封装
+从零实现灵活且可高度定制的Android图片选择架构
+https://mp.weixin.qq.com/s/7P0NhrP-GIY9HKeLWEXIew
+优雅地实现Android主流图片加载框架封装，可无侵入切换框架
+https://mp.weixin.qq.com/s/2fYXU5-JyZ5-sywhYQEBBg
+
+2018-06-20  唯一标识
+android获取设备唯一标识完美解决方案的思考以及实现方式
+https://blog.csdn.net/dqliangjun/article/details/79120776
+Android判断模拟器还是真机的方法
+https://blog.csdn.net/tianshuai4317618/article/details/78834683
+检测设备是否是模拟器 ，并且获取相对真实的IMEI AndroidId 序列号 MAC地址等，作为DeviceID，应对防刷需求等
+https://github.com/happylishang/CacheEmulatorChecker
+
+2018-06-28计算已经过了多少时间timer
+https://github.com/ChathuraHettiarachchi/TimeAgo
+
+2018-07-03
+关于混淆，你需要知道的全部
+https://mp.weixin.qq.com/s/JkP3nA9WtiB1x-sQHmFXqA
+
+2018-07-05 UML工具类图
+https://www.jianshu.com/p/8c9333352b37
+UML类图学习
+https://www.jianshu.com/p/aa9440af0960
+
+2018-07-06 Data Binding DataBinding
+
+Android Data Binding 系列(一) -- 详细介绍与使用
+http://connorlin.github.io/2016/07/02/Android-Data-Binding-%E7%B3%BB%E5%88%97-%E4%B8%80-%E8%AF%A6%E7%BB%86%E4%BB%8B%E7%BB%8D%E4%B8%8E%E4%BD%BF%E7%94%A8/
+
+Android Data Binding 系列(二) -- Binding与Observer实现原理
+http://connorlin.github.io/2016/07/13/Android-Data-Binding-%E7%B3%BB%E5%88%97-%E4%BA%8C-Binding%E4%B8%8EObserver%E5%AE%9E%E7%8E%B0%E5%8E%9F%E7%90%86/
+
+2018-07-011.9png
+Mac 下使用Android studio生成.9png图片
+https://blog.csdn.net/s1674521/article/details/77146134
+
+2018-07-011 Binder
+听说你Binder机制学的不错，来面试下这几个问题（一）
+https://www.jianshu.com/p/adaa1a39a274
+
+
+
+
