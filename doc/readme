@@ -1,8 +1,7 @@
 
 YY那个大概有：ImageLoader实现原理，Volley原理，Handler机制，事件分发机制，图片压缩，热更新热修复，内存溢出内存泄漏，常见设计模式(单例模式)，自定义控件流程，怎么定位异常
 
-
-Alibaba-ARouterSpannableString
+ganke.io 17-12-27
 
 frecso
 
@@ -198,9 +197,13 @@ http://blog.csdn.net/a787486489/article/details/52448200
 
 
 android商品详情页开发
-https://juejin.im/entry/5a03a736f265da430c1140e0
+https://www.jianshu.com/p/2683a519b3cf
 仿蘑菇街, 蜜芽宝贝, 京东商品详情界面, 与 NestedScroll 滑动
 https://juejin.im/entry/590fc1b2a22b9d0058031837
+仿美团详情滑动界面，并兼容NestedScroll嵌套
+https://blog.csdn.net/u012216274/article/details/71024304
+Android选择列表CheckListView（单选多选）
+https://www.jianshu.com/p/e4cebd5d79bc
 
 高仿美团APP页面滑动标题栏渐变效果
 https://www.jianshu.com/p/ec0d4a73c970
@@ -266,6 +269,14 @@ rxjava2 & Retrofit & okhttp
 okhtt&pretrofit源码分析，深度 百度网盘，会员花钱了，，，
 链接:https://pan.baidu.com/s/1LAbujMe5k6Xu0XFkicNV6A  密码:6r5s
 
+解决Retrofit多BaseUrl及运行时动态改变BaseUrl?
+https://www.jianshu.com/p/2919bdb8d09a
+解决Retrofit多BaseUrl及运行时动态改变BaseUrl(二)
+https://juejin.im/post/5b42aa98f265da0f82021350
+
+RxJava 复杂场景（一）：高级缓存
+https://blog.piasy.com/2016/08/24/Complex-RxJava-1-cache/
+
 OKHTTP结合官网示例分析两种自定义拦截器的区别
 https://www.jianshu.com/p/d04b463806c8
 一个基于 stetho 的 OKhttp 抓包工具，可以实现在手机上面的抓包，可以方便平时开发中的调试。
@@ -295,6 +306,15 @@ https://mp.weixin.qq.com/s/Iggi0qplKrrXg9rzOTek_Q
 https://mp.weixin.qq.com/s/cbgzXR4XZs0gnmS1c46NaA
 RxJava 只看这一篇文章就够了 (上，玉刚说)
 https://mp.weixin.qq.com/s/RkGHpVSpngfHDXo4Es-a9w
+已用在日活百万级别的线上项目中，目前没出现任何问题，可放心使用，异步任务
+https://github.com/SilenceDut/TaskScheduler
+
+多线程
+android 多线程 — 线程的面试题和答案
+https://www.jianshu.com/p/d82238a96064
+android 多线程 — 综述（重点）
+https://www.jianshu.com/p/52d752dac4aa
+
 
 17-10-11
 每个方法执行时间等，性能
@@ -338,6 +358,10 @@ http://blog.csdn.net/u013064109/article/details/51990526
 
 https://github.com/rahatarmanahmed/CircularProgressView
 
+圆形进度条
+https://github.com/antonKozyriatskyi/CircularProgressIndicator
+本开源主要实现了一款精美、优雅的加载控件。她目前有两种类型：弧形加载（CircleProgressView）和水平加载（HorizontalProgressView），同时，你可以为她设置颜色渐变效果
+https://github.com/Moosphan/Material-ProgressView/blob/master/MaterialProgressView-master/README_CH.md
 各种加载等待的进度条
 https://github.com/81813780/AVLoadingIndicatorView
 
@@ -373,7 +397,10 @@ https://github.com/af913337456/WangyiyunBottomSheetDialog?utm_source=gank.io&utm
 https://github.com/PopFisher/SmartPopupWindow
 BubbleView是带箭头的Android气泡控件/容器类，支持在布局中通过自定义属性或代码进行丰富的定制
 https://github.com/cpiz/BubbleView
-
+Android开发使用PupopWindow在指定View的上下左右动态显示菜单列表，模仿IOS底部弹窗列表。
+https://github.com/MrGaoGang/luckly_popup_window
+打造通用的popupwindow
+https://github.com/razerdp/BasePopup
 
 2017-12-21群头像
 http://www.jianshu.com/p/ec5aeb204d09
@@ -407,9 +434,12 @@ http://blog.csdn.net/wangwangli6/article/details/63258270
 目前Android最全面、最易懂的Android屏幕适配解决方案
 https://blog.csdn.net/xxf377376701/article/details/78925646
 
-
+android 适配笔记
+https://www.jianshu.com/p/b60c6bd26661
 Android 目前最稳定和高效的UI适配方案（头条适配）
 https://www.jianshu.com/p/a4b8e4c5d9b0?utm_medium=email&utm_source=gank.io
+推荐一种非常好用的Android屏幕适配
+https://www.jianshu.com/p/1302ad5a4b04
 
 屏幕适配那些事（01）屏幕适配和逻辑分辨率
 https://blog.kyleduo.com/2016/10/24/density-01-basic/
@@ -428,6 +458,9 @@ https://mp.weixin.qq.com/s/vOmcIZ7nfzmhDzufUkq5fw
 Android刘海屏适配方案
 https://mp.weixin.qq.com/s/gHEeO_Le3rSjdRSBMlX5vw
 
+Android版本适配
+Android 8.0适配指北
+https://mp.weixin.qq.com/s?__biz=MzAxMTI4MTkwNQ==&mid=2650825919&idx=1&sn=9fd432a52e4a15f298322bc78462d9e4&chksm=80b7b021b7c039379400ee7ebdd24568b28d74efa8314d5ddd38ccd86da1d238a4b204558eda&mpshare=1&scene=23&srcid=0723tiSO1zKWOymFK6t18wQ7%23rd
 
 2017-12-28okHttp
 https://mp.weixin.qq.com/s/LP9neqTlGHrcUXlHhal_oA
@@ -449,6 +482,8 @@ https://github.com/TakuSemba/Spotlight
 https://www.jianshu.com/p/1d2dcbc1e0f2
 一个小巧好用的Android引导蒙版（浮层）库
 https://mp.weixin.qq.com/s/XGGivRNWE6ijlwe5kA2owg
+一个用于app指向性功能高亮的库
+https://github.com/hongyangAndroid/Highlight
 仿zaker引导界面的视图联动效果 (艾米)
 https://github.com/jianghejie/LinkedViewPager
 
@@ -547,7 +582,7 @@ Android应用开发之所有动画使用详解（各种属性值的介绍_优先
 https://blog.csdn.net/yanbober/article/details/46481171
 Android自定义控件三部曲文章索引（动画，自定义view，重点优先03）
 https://blog.csdn.net/harvic880925/article/details/50995268
-PropertyValuesHolder.ofKeyframe属性动画，
+PropertyValuesHolder.ofKeyframe属性动画，（关键帧不用自定义差值器）
 https://blog.csdn.net/xuefu_78/article/details/52415673
 Drawable动画，自定义view初步介绍
 https://blog.csdn.net/xuefu_78/article/details/73527663
@@ -559,6 +594,9 @@ https://www.jianshu.com/p/2412d00a0ce4
 揭露动画
 使用Circular Reveal为你的应用添加揭露动画效果
 https://www.jianshu.com/p/57a7a5421b06
+
+用于做Path动画的自定义View，path动画
+https://github.com/mcxtzhang/PathAnimView
 
 差值器
 Android动画插值器之PathInterpolator浅析
@@ -573,12 +611,24 @@ https://blog.csdn.net/chay_chan/article/details/79044579
 
 Android仿美团订单悬浮view（）
 https://blog.csdn.net/kuangxiaoguo0123/article/details/69063405
+GlideToast是一个实现Flying Toast动画的android库。 (lijinshanmx)
+https://github.com/imjeevandeshmukh/GlideToast
+简洁优雅可点击的toast控件，无BadTokenException风险，关闭通知权限依然正常显示
+https://github.com/bboylin/UniversalToast
+提供Android酷炫的开屏动画 (awesome-opening-animation)
+https://github.com/wongzy/FancyView
+打造通用的popupwindow（里面有一些动画效果）
+https://github.com/razerdp/BasePopup
+一个精致的打钩小动画，模仿轻芒杂志标记已读的动画
+https://github.com/razerdp/TickView
 
 2018-01-08高斯模糊
 http://blog.csdn.net/gao_chun/article/details/52193511
 https://www.jianshu.com/p/02da487a2f43
-目前最优模糊实现
+目前最优模糊实现（重点01）
 https://github.com/wasabeef/Blurry
+EtsyBlur允许开发人员轻松实现的玻璃状模糊效果。 (lijinshanmx)
+https://github.com/Manabu-GT/EtsyBlur
 
 https://www.cnblogs.com/Fndroid/p/5734696.html
 
@@ -592,7 +642,7 @@ http://blog.csdn.net/brian512/article/details/52096445
 http://blog.csdn.net/fan7983377/article/details/51604657
 https://www.jianshu.com/p/34a8b40b9308
 重点：下面这个链接
-https://www.jianshu.com/p/2a884e211a62
+https://www.jianshu.com/p/2a884e211a62（重点01）
 https://mp.weixin.qq.com/s/zXsSBlhIbtOUled5ridNHw
 http://blog.csdn.net/baopengjian/article/details/69525076
 探索Android半透明状态栏
@@ -604,6 +654,8 @@ https://juejin.im/post/5924dbf58d6d810058fdde43
 https://github.com/zhangyanru/WebViewDemo
 WebView 全面干货指南
 https://mp.weixin.qq.com/s/wFwlVYx5zsoGmjsOfPJckg
+DeepLink SDK之魔窗的使用，浏览器直接跳转详情页
+http://androidwing.net/index.php/44
 
 2018-03-21工具类，工具，开发工具集合，各种as插件
 https://mp.weixin.qq.com/s/PUf9Xkkij3X0Xt9mysPR_A
@@ -680,6 +732,8 @@ TakePhoto ：
 https://github.com/crazycodeboy/TakePhoto/
 头像裁切裁剪大神级别
 https://github.com/Yalantis/uCrop
+适用于Android的简单图像裁剪库。 (lijnshanmx)
+https://github.com/igreenwood/SimpleCropView
 
 仿微信发朋友圈、从相册选取开源框架
 https://www.jianshu.com/p/b5b5eac5c64c
@@ -701,6 +755,10 @@ https://github.com/Skykai521/InstagramPhotoPicker
 https://github.com/jeasonlzy/NineGridView
 一个图片浏览框架,类似微信图片浏览,手势向下滑动关闭,图片加载引擎自定义,支持长按,单击监听,切换监听,自定义任意的遮罩层，实现各种效果,支持横竖屏切换,简单方便。
 https://github.com/maning0303/MNImageBrowser
+android 仿头条 微信大图预览动画 双击缩放 保存至相册
+https://github.com/cedear/GalleryView
+android file picker 文件选择器
+https://github.com/JakePrim/PrimFilePicker
 
 2018-01-19 相机，自定义相机
 https://github.com/Skykai521/StickerCamera
@@ -735,6 +793,8 @@ https://mp.weixin.qq.com/s?__biz=MzAxMTI4MTkwNQ==&mid=2650824809&idx=1&sn=b259de
 
 Android实现APP在线下载更新
 https://mp.weixin.qq.com/s/4wl_oBG7Zzsddu_RR3O3IQ
+AppUpdater版本更新，一键傻瓜式升级。
+https://github.com/jenly1314/AppUpdater
 
 2018-01-31模拟器，
 Genymotion
@@ -744,8 +804,13 @@ https://www.jianshu.com/p/96d37b9e71bc
 
 2018-02-08圆角头像，
 https://github.com/hdodenhof/CircleImageView
-2018-02-08圆角矩形
+Android 圆角、圆形 ImageView
+https://github.com/SheHuan/NiceImageView
+
+2018-02-08圆角矩形圆角布局
 https://github.com/vinc3m1/RoundedImageView
+Android 通用圆角布局，快速实现圆角需求。
+https://github.com/GcsSloop/rclayout
 
 2018-02-12  权限  权限适配
 https://github.com/jokermonn/permissions4m
@@ -773,6 +838,11 @@ https://www.2cto.com/kf/201707/662649.html
 
 
 2018-03-23 gradle 多渠道 打包
+
+自动打包
+https://github.com/echoMu/Android-
+Android解放双手之Gradle自动化打包实战
+https://mp.weixin.qq.com/s/fStXUKZl1J0SfiazYMK7Tg
 app拆分，多产品打包实录
 https://mp.weixin.qq.com/s/zDSMwJedJnKkBOjRNm3y4A
 Android 必备而又容易忽视的知识 Gradle的高级用法
@@ -796,6 +866,11 @@ https://blog.kyleduo.com/archives/page/4/
 https://mp.weixin.qq.com/s/g9qgtNKTnLmr11_YxScFBA
 
 2018-03-23 性能优化
+
+android卡顿、ANR监测
+https://github.com/pruas/Caton
+检测卡顿
+https://github.com/qq542391099/BlockCollect
 https://mp.weixin.qq.com/s/8bQ4ES5SBvnvPoaw8aGcig
 blockcanry01
 https://github.com/markzhai/AndroidPerformanceMonitor
@@ -826,15 +901,25 @@ LeakCanary的原理，你知道么？
 https://mp.weixin.qq.com/s/ghu4kYoeaWHu4rDsF_esng
 JVM内存模型你只要看这一篇就够了
 https://www.jianshu.com/p/c9ac99b87d56
+面试常问点：深入剖析JVM的那些事
+https://mp.weixin.qq.com/s?__biz=MzI2OTQxMTM4OQ==&mid=2247486633&idx=1&sn=07336f531f3977522c457f237a08fe49&chksm=eae1f9fbdd9670ed3f87a1769f4461ca3959c6dc00e35b42a87de6cfa5392d4c2761687354d6&mpshare=1&scene=23&srcid=0712OUu6qvu73BblfNXViXCg%23rd
+Java虚拟机，这是值得你去进阶的方向
+https://mp.weixin.qq.com/s?__biz=MzA5MzI3NjE2MA==&mid=2650243590&idx=1&sn=1c60c5d02d98832ceb667ee3564eecb7&chksm=88637369bf14fa7ff13b8df6bdd28d244d19150657b4b8642b8fa5cc31ce47ac5d82a7ecc5ae&mpshare=1&scene=23&srcid=0720py4U0tWTU96z6aZLXZIk%23rd
+
 实践App内存优化：如何有序地做内存分析与优化
 https://mp.weixin.qq.com/s/yD9walcQmGR19fUpM_oBgQ
 记一次Android内存泄漏的优化经历
 https://mp.weixin.qq.com/s/870VVaqy-smxnxaAf2ZDhw
 如何排查列表卡顿问题 | 性能优化技巧知识梳理
 https://mp.weixin.qq.com/s/pziDgzu24js2e1Z6jahJFQ
-
+Android 性能优化最佳实践
+https://mp.weixin.qq.com/s/SmW2ljasKSXC1zlwTLY-iQ
 Android Bitmap变迁与原理解析（4.x-8.x）
 https://www.jianshu.com/p/d5714e8987f3
+Android性能优化（一）之启动加速35%
+https://mp.weixin.qq.com/s?__biz=MzI0MjE3OTYwMg==&mid=2649551846&idx=1&sn=8a9afcf97b906ec1cf4efada2dd1bf8f&chksm=f118189bc66f918d2768a6d2824b5c6a42f09b76d0d41848f32d77876e24dfe088cdac63cf36&mpshare=1&scene=23&srcid=0723bK47jSqEnAvPCWdEff6A%23rd
+记一次Activity的内存泄漏和分析过程
+https://mp.weixin.qq.com/s/OsCKqdyyx3mHVOFhC0OL5g
 
 2018-03-23 Android系统，应用层，四大组件，进阶，高级。
 Android进阶——Android四大组件启动机制之Activity启动过程
@@ -847,6 +932,21 @@ https://mp.weixin.qq.com/s/wNdRSs-U05LLK_ZT2p2SFg
 
 我的recycleView技术大全(重点01，各种操作)
 https://www.jianshu.com/p/33cfa35d5188(重点)
+
+具有分页功能的 Recyclerview 布局管理器，主打分页，可以替代部分场景下的网格布局，线性布局，以及一些简单的ViewPager，但也有一定的局限性，请选择性使用。
+https://github.com/GcsSloop/pager-layoutmanager
+
+item侧滑
+【Android】史上最简单，一步集成侧滑(删除)菜单，高仿QQ、IOS。（可以结合事件传递学习分析）
+https://blog.csdn.net/zxt0601/article/details/53157090
+打造最强RecyclerView，Item侧滑菜单，长按拖拽Item，滑动删除Item
+http://www.jcodecraeer.com/a/anzhuokaifa/androidkaifa/2016/0805/4573.html
+
+换种思路实现RecyclerView嵌套RecyclerView(购物车)复杂效果
+https://blog.csdn.net/oQinYou/article/details/78630655（核心思想是多布局实现）
+
+创建快速的、动态的recycler views. No adapter, no view holders。
+https://github.com/dev-labs-bg/fast-list
 
 自定义LayoutManager，炫酷列表(各种效果，堆叠，群推荐)
 https://github.com/DingMouRen/LayoutManagerGroup
@@ -878,6 +978,9 @@ https://mp.weixin.qq.com/s/LAm4m9klItuQpr4Sd2_mvQ
 RecyclerView 源码分析
 https://mp.weixin.qq.com/s/1bWwkiAAO_caA1qsX7FBeg
 
+Android:一个线程玩转商品列表所有item的倒计时器，并对Adapter进行单控件刷新优化
+https://www.jianshu.com/p/f73a715840fd
+
 一步步教你实现完整的复杂列表布局&多布局
 https://mp.weixin.qq.com/s/XbR9M2oeYcvrhG6GgjIgGA
 复杂recyclerView封装库
@@ -888,6 +991,13 @@ https://github.com/ImportEffort/ListViewUseBaseHolder
 https://www.jianshu.com/p/561c80b23f45
 解决RecyclerView执行动画后item边距错误的问题
 https://blog.kyleduo.com/2017/07/27/recyclerview-wrong-decoration-inset/
+
+高性能微信朋友圈（列表滑动卡顿优化分析）
+https://github.com/KCrason/HighPerformanceFriendsCircle
+复用，缓存了view实现顺畅
+https://github.com/razerdp/PhotoContents
+一起来撸个朋友圈吧
+https://github.com/razerdp/FriendCircle
 
 2018-03-29 adapter
 Android之Adapter的封装与抽象
@@ -910,8 +1020,12 @@ https://mp.weixin.qq.com/s/_tfd7VOfj2xtDnOAtM5uiA
 
 2018-03-30 kotlin 集合
 https://github.com/LyndonChin/kotlin-docs-zh
+极客时间上，购买了付费版本了
 
 2018-04-02 键盘
+
+完美解决安卓上层输入控件随键盘弹起，下层 UI 变形问题
+https://blog.piasy.com/2016/02/24/Android-Multiple-Fragment-Layer/
 如何关闭或隐藏 Android 中的软键盘？
 https://www.jianshu.com/p/918f69c3e2cd
 自定义键盘
@@ -977,6 +1091,7 @@ https://github.com/wensefu/StackCardsView
 https://github.com/dalong982242260/FangTantan
 开源整理：仿探探左滑右滑卡片效果
 http://blog.coderclock.com/2017/08/20/android/open-source-android-swipe-card/
+https://github.com/nihad92/SwipeableCards
 
 https://juejin.im/entry/594266008d6d810058c67e7f
 https://github.com/xmuSistone/CardSlidePanel
@@ -1005,13 +1120,87 @@ https://github.com/af913337456/WeChatVideoView
 下拉筛选菜单
 https://github.com/FJ917/FJDropDownMenu?utm_source=gank.io&utm_medium=email
 
-2018-04-02 自定义view、
+搜索历史
+这里面有搜索历史功能
+https://github.com/sendtion/BookReader
+Android 类似淘宝 电商 搜索功能，监听软键盘搜索事件，延迟自动搜索，以及时间排序的搜索历史记录的实现
+https://blog.csdn.net/zxt0601/article/details/50899889
+流式布局
+Android 流式布局FlowLayout(搜索历史),可多布局、点击删除、添加等操作，暂无类似RecyclerView布局复用的处理，所以数据不应添加过多
+https://github.com/AnJiaoDe/MultiFlowLayout
+
+
+2018-04-02 自定义viewall、
+
+
+canvas path paint
+自定义view（大神重点n）
+http://hencoder.com/ui-1-1/
+自定义view（重点02）
+https://github.com/GcsSloop/AndroidNote/tree/master/CustomView
+部分讲解（重点01）
+https://blog.csdn.net/qq_34476727/article/category/6844832
+Android 路径(Path)与剪裁(Clipping)详解裁切
+https://blog.csdn.net/u012553125/article/details/52179886
+Android自定义View工具：Paint&Canvas(一)
+https://blog.csdn.net/qq_34476727/article/details/69524834
+Android自定义View工具：Paint&Canvas(二)
+https://blog.csdn.net/qq_34476727/article/details/69525221
+Android Canvas之Path操作
+https://www.cnblogs.com/zhchoutai/p/8625364.html
+Android Path测量工具：PathMeasure
+https://blog.csdn.net/qq_34476727/article/details/69525860
+Android自定义View中的常用方法(距离、位置、点击事件)
+https://blog.csdn.net/qq_34476727/article/details/69525947
+android自定义View&自定义ViewGroup(上)
+https://blog.csdn.net/qq_34476727/article/details/69525969
+android自定义View&自定义ViewGroup(下)
+https://blog.csdn.net/qq_34476727/article/details/69526049
+
+
+
+edittext输入框输入字数剩余字数
+https://github.com/bufferapp/CounterView
+
+日历
+Android上一个优雅、万能自定义UI、支持周视图、自定义周起始、性能高效的日历控件，支持热插拔实现的UI定制！支持标记、自定义颜色、农历、自定义月视图各种显示模式等。Canvas绘制，速度快、占用内存低，你真的想不到日历居然还可以如
+https://github.com/huanghaibin-dev/CalendarView/tree/master
+纵享丝滑滑动切换的周月日历，丰富自定义日历样式，仿小米日历，基于material-calendarview （Android官方的CalendarView）实现，简洁高效，ViewDragHelper实现
+https://github.com/idic779/monthweekmaterialcalendarview
+
+一个优雅的外观和易于使用的Android信息库。（各种bar，顶部底部出现的bar）
+https://github.com/yuvraj24/LiveSmashBar
+在图像视图和相关布局的底部添加曲线 (lijinshanmx)
+https://github.com/developer-shivam/crescento
+漂亮的角标View
+https://github.com/linger1216/labelview
+Android 自定义View实践之组合控件实现布局的复用（标题栏复用,不用每个界面都写标题栏title）
+https://www.jianshu.com/p/d378523a00d9
+
+流式布局
+Android 流式布局FlowLayout(搜索历史),可多布局、点击删除、添加等操作，暂无类似RecyclerView布局复用的处理，所以数据不应添加过多
+https://github.com/AnJiaoDe/MultiFlowLayout
+
+轻松实现滚动数字效果
+https://github.com/newcaoguo/EasyRollingNumber
+florent37 开源了一个很有意思的项目，MyLittleCanvas，用来替代“难用”的 canvas
+https://github.com/florent37/MyLittleCanvas
+滑动卷尺，适用于身高、体重输入等场景，样式风格自由定制。
+https://github.com/jdqm/TapeView
+仿写薄荷健康体重选择控件
+https://github.com/totond/BooheeRuler
+使用标尺从指定范围中选取数字的Android自定义视图。 (lijinshanmx)
+https://github.com/kevalpatel2106/android-ruler-picker
+
+高度自定义的沉浸式，商城sku商城筛选商品条件）算法，仿了吗购物车(带缓存)，装饰类的RecycleView添加头尾
+https://github.com/GongWnbo/SuperRecycleView
 
 时间轴（快速简单的定制一个时间轴布局（LinearLayout））
 http://www.jcodecraeer.com/a/anzhuokaifa/androidkaifa/2016/0121/3902.html
 Android时间轴(Timeline)效果的实现
 https://www.jianshu.com/p/e489a0e64246
-
+// 这是一个简单的时间轴实现(LinearLayout)
+https://github.com/razerdp/UnderLineLinearLayout
 一个Android富文本类库，支持图文混排，支持编辑和预览，支持插入和删除图片。
 https://github.com/sendtion/XRichText
 
@@ -1056,9 +1245,21 @@ List of Android UI/UX Libraries
 https://github.com/wasabeef/awesome-android-ui
 ScalingLayout缩放布局
 https://github.com/iammert/ScalingLayout
-CardView 自定义形状的CardView，可以修改阴影颜色，
+
 类似小票饭票电影票发票抽奖券效果的卡片列表，并且可以修改阴影颜色
 http://android.ctolib.com/vivian8725118-CardView.html
+CardView 自定义形状的CardView，可以修改阴影颜色，卡券
+https://juejin.im/entry/589542d61b69e600598673ed
+一个提供卡片视图TicketView的Android库卡券
+https://dotnet.ctolib.com/vipulasri-TicketView.html
+https://github.com/vipulasri/TicketView
+Android自定义控件3——边缘凹凸的卡劵效果View
+https://blog.csdn.net/yissan/article/details/51429281
+Android 自定义 View——自由定制优惠券背景
+https://juejin.im/entry/589542d61b69e600598673ed
+Android自定义View之绘制虚线（卡券虚线不能显示，硬件加速导致）
+https://www.jianshu.com/p/75cc93195f7a?from=jiantop.com
+
 仿京东金融首页的有速率差的联动ScrollView
 https://github.com/meiniepan/TogetherScrollView?utm_medium=email&utm_source=gank.io
 
@@ -1068,6 +1269,8 @@ https://mp.weixin.qq.com/s/koz0MpYWgvnW3FMDgj2H-A
 https://github.com/YvesCheung/RollingText
 Android自定义之圆弧滑动效果
 https://mp.weixin.qq.com/s/KNWMqF2V9hCgrVyrEQyizg
+// 一个好吃的甜甜圈？类似图片饼状图效果
+https://github.com/razerdp/AnimatedPieView
 
 2018-04-02 Splash &启动闪屏&冷启动页
  教你如何实现 Splash 页面三秒跳转和动态下载最新背景图
@@ -1092,6 +1295,10 @@ Android wifi上网跟4G上网的区别
 https://www.jianshu.com/p/8e7cd89de4e8
 Android 3G/4G流量上网原理简析
 https://www.jianshu.com/p/0d05e5f71a70
+《图解HTTP》读书笔记
+https://blog.csdn.net/zxt0601/article/details/62422444
+HTTP 必知必会的那些
+https://mp.weixin.qq.com/s?__biz=MzIwMTAzMTMxMg==&mid=2649492918&idx=1&sn=40030cd46cbba2bc639602aa341f3739&chksm=8eec8649b99b0f5f09aedc590901f61e1729ff03e6381a3127890381841dfcdd14af282a13fc&scene=21#wechat_redirect
 
 2018-04-03 Activity状态保存与恢复 应用恢复，APP恢复，杀死进程恢复
 https://mp.weixin.qq.com/s/lrLlAmC5U4Q4HVhU34H6Qg
@@ -1105,9 +1312,18 @@ https://www.jianshu.com/p/e3612a9b1af3
 Android后台杀死系列之三：LowMemoryKiller原理（4.3-6.0）
 https://www.jianshu.com/p/23cf3199f606
 
+安卓基础：Activity/Fragment 生命周期
+https://blog.piasy.com/2017/01/14/Android-Basics-Activity-Fragment-Life-Cycle/
+安卓基础：Activity/Fragment 销毁与重建
+https://blog.piasy.com/2017/01/15/Android-Basics-Activity-Fragment-Kill-and-Recreate/
+
+
+
 2018-04-03 Activity启动模式
 Android面试官装逼失败之：Activity的启动模式
 https://www.jianshu.com/p/b3a95747ee91
+这可能是目前最详细的安卓task, launchMode, intent flag测试分析与总结了
+https://blog.piasy.com/2016/03/19/Android-Task-And-Back-Stack/
 
 
 2018-04-03 音频视频音视频
@@ -1145,6 +1361,12 @@ https://github.com/ImportEffort/WLeetCode
 https://mp.weixin.qq.com/s/ux1c_kGOg0KeUwMLz43djg
 从源码角度彻底搞懂ArrayList
 https://mp.weixin.qq.com/s/DUzQSZ7Xd3ZaNoV98KuK0w
+面试必备：SparseArray源码解析（博客中有一系列进入主页查看）
+https://blog.csdn.net/zxt0601/article/details/78342675
+算法之美 : 栈和队列
+https://mp.weixin.qq.com/s?__biz=MzIwMTAzMTMxMg==&mid=2649492965&idx=1&sn=d9fa4d2df7f635210769e9b4b5be332e&chksm=8eec861ab99b0f0c7bdaffbcd8ff8771c83055ad1de8108da714ddb49c348e9d28c4f8f6582a&mpshare=1&scene=23&srcid=0723FhLsIgs1OE8JHFWjonrO%23rd
+浅析WeakHashMap
+https://mp.weixin.qq.com/s/UZpjk5uBuAz50pBZlcORlg
 
 2018-04-08 图片加载
 在Android上结合七牛提供的API，让加载图片更有效、更节流、更简单、更可控、更酷
@@ -1194,7 +1416,10 @@ https://www.zhihu.com/question/37367986
 https://www.cnblogs.com/imqsl/p/6561299.html
 ScalingLayout
 https://github.com/iammert/ScalingLayout
-
+A library to add shadows for the Android View.(一个方便为Android View添加自然的阴影的库，支持view的渐变色)
+https://github.com/zhengcx/ShadowHelper
+通过一行代码即可实现阴影效果。 (lijinshanmx)
+https://github.com/JuHonggang/ShadowDrawable
 2018-04-13事件分发事件传递
 你不能错过的View事件分发机制分析
 https://mp.weixin.qq.com/s/-dS1M0eFKJEAA-7viMi8Vw
@@ -1215,6 +1440,14 @@ https://mp.weixin.qq.com/s/jqXBnsJJvjmhDDjE96PKUw
 设计模式(创建型)之简单工厂模式(Simple Factory Pattern)（包含很多种设计模式）
 https://blog.csdn.net/yanbober/article/details/45312395
 
+装饰者模式
+https://blog.csdn.net/lmj623565791/article/details/51854533
+代理模式
+https://blog.csdn.net/xuehuayous/article/details/80021325
+适配器模式使用场景
+https://blog.csdn.net/zxt0601/article/details/52848004
+设计模式(一) 工厂模式 五种写法总结
+https://blog.csdn.net/zxt0601/article/details/52798423
 
 2018-04-27  重构，整体架构
 我对移动端架构的思考
@@ -1287,6 +1520,10 @@ https://blog.csdn.net/yanbober/article/details/45567149
 https://github.com/huangyanbin/smartTable?utm_source=gank.io&utm_medium=email
 一个开源的、完善的、简洁的课程表控件
 https://github.com/zfman/TimetableView
+一个看起来像TableView的RecyclerView，可以同时水平和垂直滚动一个固定的标题。
+https://github.com/brkckr/TableView
+KChart for Android ；股票k线图
+https://github.com/tifezh/KChartView
 
 2018-06-06    SpannableString
 我赌5毛你没见过这样的SpannableString(可以自定义字体)
@@ -1312,6 +1549,9 @@ https://blog.csdn.net/liaoinstan/article/details/52671101
 https://drakeet.me/
 
 Android 复杂的多类型列表视图新写法：MultiType 3.0
+（第三方库中引用了不同版本的库，如何不让第三方库中的起作用，剔除。
+MultiType 内部引用了 recyclerview-v7:25.3.1，如果你不想使用这个版本，可以使用 exclude 将它排除掉，再自行引入你选择的版本。示例如下：（具体方式在下面的链接中）
+）
 https://drakeet.me/multitype/
 https://github.com/drakeet/MultiType
 
@@ -1322,7 +1562,7 @@ http://mp.weixin.qq.com/s/XbR9M2oeYcvrhG6GgjIgGA
 http://blog.csdn.net/guanyingcao/article/details/75170921
 http://crazysunj.com/2017/08/14/BRVAH-MTRVA%EF%BC%8C%E5%A4%8D%E6%9D%82%EF%BC%9F%E4%B8%8D%E5%AD%98%E5%9C%A8%E7%9A%84/#more
 
-一种优雅的方式实现RecyclerView条目多类型（放弃vlayout不使用用vlayout_csdn）
+一种优雅的方式实现RecyclerView条目多类型（放弃vlayout不使用用vlayout_csdn,可以结合泛型学习）
 https://blog.csdn.net/xuehuayous/article/details/80021325
 
 不一样的RecyclerView优雅实现复杂列表布局（慕课网,视频教程）
@@ -1348,6 +1588,8 @@ Android判断模拟器还是真机的方法
 https://blog.csdn.net/tianshuai4317618/article/details/78834683
 检测设备是否是模拟器 ，并且获取相对真实的IMEI AndroidId 序列号 MAC地址等，作为DeviceID，应对防刷需求等
 https://github.com/happylishang/CacheEmulatorChecker
+一行代码帮你检测Android多开软件（一键集成防护措施反XP反调试反多开反模拟器）
+https://mp.weixin.qq.com/s?__biz=MzA5MzI3NjE2MA==&mid=2650243597&idx=1&sn=2e6f4a104456fd20d1d7e856719ba47c&chksm=88637362bf14fa746220698d1f2492816cce31b23e6177f97aee97e762b380639bf87d45e1a6&mpshare=1&scene=23&srcid=0723wWR0X17Tz6aWtHTw4qWX%23rd
 
 2018-06-28计算已经过了多少时间timer
 https://github.com/ChathuraHettiarachchi/TimeAgo
@@ -1377,6 +1619,21 @@ https://blog.csdn.net/s1674521/article/details/77146134
 听说你Binder机制学的不错，来面试下这几个问题（一）
 https://www.jianshu.com/p/adaa1a39a274
 
+2018-07-011 连击
+RxComboDetector：Android view点击“连击”检测（结合RxBinding+rxjava）
+https://blog.piasy.com/2016/01/18/Android-View-Click-Combo-Detector/
 
+Android Bitmap变迁与原理解析（4.x-8.x）
+https://www.jianshu.com/p/d5714e8987f3
+图片压缩
+https://mp.weixin.qq.com/s/-ixGY5E34Fbsy0N3-XTk-Q
+也谈图片压缩
+http://zhengxiaoyong.me/2017/04/23/%E4%B9%9F%E8%B0%88%E5%9B%BE%E7%89%87%E5%8E%8B%E7%BC%A9/
+一款Android 便捷高效图片压缩库，更多自定义，灵活配置，缩放部分逆向微信朋友圈压缩效果推算得来，效果非常接近！
+https://github.com/pruas/Biscuit
+移动端图片格式调研
+https://mp.weixin.qq.com/s/f5cO9XI3OvUJ_kVP0eXAdg
 
-
+2018-07-20 反编译
+Android反编译从零到一
+https://mp.weixin.qq.com/s?__biz=MzA5MzI3NjE2MA==&mid=2650243503&idx=1&sn=6d3d4c0f3c9537c03307aed69f3cefcd&chksm=886370c0bf14f9d63f4508828363eea7d7a88fe7b7d1ed92bc84fac6401cb89b6f504f37f183&mpshare=1&scene=23&srcid=0716OdyP4kTAxn1n4pesXHyK%23rd
