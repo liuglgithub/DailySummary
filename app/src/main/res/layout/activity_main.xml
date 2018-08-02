@@ -74,13 +74,9 @@
                 android:id="@+id/rececyview_jiazai"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="RecyclerView 多布局" />
+                android:text="RecyclerView 综合" />
 
-            <Button
-                android:id="@+id/baocunweizhi"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="RecyclerView 多布局" />
+
             <Button
                 android:id="@+id/servicedetail"
                 android:layout_width="match_parent"
