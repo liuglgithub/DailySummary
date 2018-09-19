@@ -77,6 +77,8 @@ dependencies {
 //tablayout
     compile 'com.ogaclejapan.smarttablayout:library:1.6.1@aar'
 
+    // zengji
+
 }
 // /**/  Project 的gradle文件内容
 //// Top-level build file where you can add configuration options common to all sub-projects/modules.
