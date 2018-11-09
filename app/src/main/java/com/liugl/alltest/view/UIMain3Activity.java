@@ -13,6 +13,7 @@ import com.liugl.alltest.view.gaussian.GaussianBlurActivity;
 import com.liugl.alltest.view.progress.Progress01Activity;
 import com.liugl.alltest.view.recyclerviewmulitlayout.RecycleViewMulitLayoutActivity;
 import com.liugl.alltest.view.relatvie.Relativelayout_Activity;
+import com.liugl.alltest.view.selfdefineview.baiduloading.BaiduLoadingActivity;
 import com.liugl.alltest.view.sharepbg.SharepActivity;
 import com.liugl.alltest.view.shijianzhou.ShiJianZhouActivity;
 import com.liugl.alltest.view.viewpager.ViewPagerAllActivity;
@@ -47,6 +48,9 @@ public class UIMain3Activity extends BaseActivity {
     @BindView(R.id.viewPagerBtn)
     Button viewPagerBtn;
 
+    @BindView(R.id.baiduloadingBtn)
+    Button baiduloadingBtn;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -54,7 +58,7 @@ public class UIMain3Activity extends BaseActivity {
         ButterKnife.bind(this);
     }
 
-    @OnClick({R.id.viewPagerBtn,R.id.shareBg,R.id.gaussianBlurBtn,R.id.relativeAverage,R.id.progressJvhua,R.id.timezhou,R.id.vpgridview, R.id.datapic,R.id.rvmulit})
+    @OnClick({R.id.baiduloadingBtn,R.id.viewPagerBtn,R.id.shareBg,R.id.gaussianBlurBtn,R.id.relativeAverage,R.id.progressJvhua,R.id.timezhou,R.id.vpgridview, R.id.datapic,R.id.rvmulit})
     public void onBtnClick(View view) {
 
         switch (view.getId()) {
@@ -101,6 +105,11 @@ public class UIMain3Activity extends BaseActivity {
             case R.id.viewPagerBtn:
                 Intent viewpagerIntent = new Intent(this, ViewPagerAllActivity.class);
                 startActivity(viewpagerIntent);
+                break;
+
+            case R.id.baiduloadingBtn:
+                Intent baiduloadingIntent = new Intent(this, BaiduLoadingActivity.class);
+                startActivity(baiduloadingIntent);
                 break;
 
         }

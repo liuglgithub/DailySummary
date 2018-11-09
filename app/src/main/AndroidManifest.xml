@@ -172,7 +172,8 @@
         <activity android:name=".nestedscroll.coordinatorlayout.csdn.ViewPager01Activity" />
         <activity android:name=".nestedscroll.coordinatorlayout.csdn.ViewPagerParallaxActivity" />
         <activity android:name=".nestedscroll.coordinatorlayout.csdn.ZhihuBottom01Activity" />
-        <activity android:name=".recyclerview.RecyclerViewActivity"></activity>
+        <activity android:name=".recyclerview.RecyclerViewActivity" />
+        <activity android:name=".view.selfdefineview.baiduloading.BaiduLoadingActivity"></activity>
     </application>
 
 </manifest>

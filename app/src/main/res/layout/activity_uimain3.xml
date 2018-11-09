@@ -73,6 +73,12 @@
                 android:layout_height="wrap_content"
                 android:text="各种viewPager" />
 
+            <Button
+                android:id="@+id/baiduloadingBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="百度加载loading动画" />
+
         </LinearLayout>
 
     </ScrollView>

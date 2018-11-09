@@ -21,4 +21,8 @@
         <attr name="timelineMarginTop" format="dimension" />
         <attr name="timelineWidth" format="dimension" />
     </declare-styleable>
+    <declare-styleable name="Wave">
+        <attr name="color" format="color"/>
+        <attr name="text" format="string"/>
+    </declare-styleable>
 </resources>
