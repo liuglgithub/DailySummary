@@ -195,6 +195,12 @@
                 android:text="popWindow" />
 
             <Button
+                android:id="@+id/binderAidleBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="BINDER_AIDL_MESSENGER" />
+
+            <Button
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:text="" />

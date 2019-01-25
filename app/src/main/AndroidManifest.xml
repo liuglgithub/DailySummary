@@ -173,7 +173,19 @@
         <activity android:name=".nestedscroll.coordinatorlayout.csdn.ViewPagerParallaxActivity" />
         <activity android:name=".nestedscroll.coordinatorlayout.csdn.ZhihuBottom01Activity" />
         <activity android:name=".recyclerview.RecyclerViewActivity" />
-        <activity android:name=".view.selfdefineview.baiduloading.BaiduLoadingActivity"></activity>
+        <activity android:name=".view.selfdefineview.baiduloading.BaiduLoadingActivity" />
+
+        <service
+            android:name=".binderaidlmessenger.aidl.CalcService"
+            android:process=".countprocess">
+            <intent-filter>
+                <action android:name="com.zhy.aidl.calc" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </service>
+
+        <activity android:name=".binderaidlmessenger.aidl.CalcMainActivity"></activity>
     </application>
 
 </manifest>

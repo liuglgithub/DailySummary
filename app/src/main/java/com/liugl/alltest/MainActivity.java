@@ -12,6 +12,7 @@ import android.widget.RelativeLayout;
 import com.liugl.alltest.activitylifececyle.LifeOneActivity;
 import com.liugl.alltest.animation.Animation_Activity;
 import com.liugl.alltest.annotation.AnotationMain3Activity;
+import com.liugl.alltest.binderaidlmessenger.aidl.CalcMainActivity;
 import com.liugl.alltest.cach.CachMain2Activity;
 import com.liugl.alltest.chenjinshi.ChenJinShiStatusBarMain2Activity;
 import com.liugl.alltest.db.DBActivity;
@@ -117,7 +118,10 @@ public class MainActivity extends AppCompatActivity {
     @BindView(R.id.popWindowBtn)
     Button popWindowBtn;
 
-//    @BindView(R.id.tbn_app)
+    @BindView(R.id.binderAidleBtn)
+    Button binderAidleBtn;
+
+//    @BindView(R.id.tbn_app)binderAidleBtn
 //    Button tbnApp;
 
     @Override
@@ -143,7 +147,7 @@ public class MainActivity extends AppCompatActivity {
         }*/
     }
 
-    @OnClick({R.id.rececyview_jiazai, R.id.popWindowBtn, R.id.animationBtn, R.id.acacheTest, R.id.changeDB, R.id.synchronizedList,
+    @OnClick({R.id.binderAidleBtn,R.id.rececyview_jiazai, R.id.popWindowBtn, R.id.animationBtn, R.id.acacheTest, R.id.changeDB, R.id.synchronizedList,
             R.id.activity_try_catch_oom_div, R.id.activity_suanfa_div, R.id.activity_shezhi_ui_div, R.id.activity_lifececyle_method, R.id.window_app, R.id.ui_app, R.id.annotation_app, R.id.ad_app, R.id.h5_app,
             R.id.imgload_test, R.id.rsa_test, R.id.https_test, R.id.servicedetail, R.id.md, R.id.qiantaohuadong, R.id.fragment_bug, R.id.fragment_qiantao,
             R.id.suolue_pic, R.id.notification_test, R.id.permission, R.id.chenjinshi})
@@ -275,6 +279,10 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(popWindowBtnIntent);
                 break;
 
+            case R.id.binderAidleBtn:
+                Intent binderAidleIntent = new Intent(this, CalcMainActivity.class);
+                startActivity(binderAidleIntent);
+                break;
         }
     }
 
