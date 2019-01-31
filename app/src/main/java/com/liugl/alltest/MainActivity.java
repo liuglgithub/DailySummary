@@ -13,6 +13,7 @@ import com.liugl.alltest.activitylifececyle.LifeOneActivity;
 import com.liugl.alltest.animation.Animation_Activity;
 import com.liugl.alltest.annotation.AnotationMain3Activity;
 import com.liugl.alltest.binderaidlmessenger.aidl.CalcMainActivity;
+import com.liugl.alltest.binderaidlmessenger.aidl.CalcPlusBinderActivity;
 import com.liugl.alltest.cach.CachMain2Activity;
 import com.liugl.alltest.chenjinshi.ChenJinShiStatusBarMain2Activity;
 import com.liugl.alltest.db.DBActivity;
@@ -280,7 +281,8 @@ public class MainActivity extends AppCompatActivity {
                 break;
 
             case R.id.binderAidleBtn:
-                Intent binderAidleIntent = new Intent(this, CalcMainActivity.class);
+//                Intent binderAidleIntent = new Intent(this, CalcMainActivity.class);//aidl
+                Intent binderAidleIntent = new Intent(this, CalcPlusBinderActivity.class);//手写binder
                 startActivity(binderAidleIntent);
                 break;
         }

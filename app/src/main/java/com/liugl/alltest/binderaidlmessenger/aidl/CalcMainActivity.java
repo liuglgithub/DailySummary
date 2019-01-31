@@ -90,7 +90,7 @@ public class CalcMainActivity extends AppCompatActivity {
      */
     public void bindService( ) {
         Intent intent = new Intent();
-        intent.setAction("com.zhy.aidl.calc");
+        intent.setAction("com.zhy.aidl.calc");//aidl
         bindService(createExplicitFromImplicitIntent(this,intent), mServiceConn, Context.BIND_AUTO_CREATE);
     }
 

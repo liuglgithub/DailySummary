@@ -184,8 +184,18 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </service>
+        <service
+            android:name=".binderaidlmessenger.aidl.CalcPlusService"
+            android:process=".countprocess">
+            <intent-filter>
+                <action android:name="com.zhy.aidl.calcplus" />
 
-        <activity android:name=".binderaidlmessenger.aidl.CalcMainActivity"></activity>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </service>
+
+        <activity android:name=".binderaidlmessenger.aidl.CalcMainActivity" />
+        <activity android:name=".binderaidlmessenger.aidl.CalcPlusBinderActivity"></activity>
     </application>
 
 </manifest>
